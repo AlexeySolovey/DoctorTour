@@ -1,0 +1,479 @@
+@orange: #ff6501;
+@gray: #3f3f3f;
+@light_gray: rgba(255,255,255,.6);
+/*****************************
+			fonts
+*****************************/
+/*Roboto*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/roboto.eot);
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Merriweather.eot);
+}
+/*****************************
+			main
+*****************************/
+a:hover{
+	cursor: pointer;
+}
+a:focus {
+	outline: none; /*отключить внешние границы*/
+	background: transparent; /*отключить background*/
+}
+button{
+	outline: none;
+}
+ul{
+	padding-left: 0;
+	li{
+		list-style-type: none;
+	}
+}
+.container{
+	max-width: 1060px;
+	min-width: 320px;
+}
+/*****************************
+			header
+*****************************/
+header{
+	background: @orange;
+	.header_top{
+		background: @gray;
+		nav{
+			ul {
+				margin-bottom: 0;
+				text-align: center;
+				a{
+					&:last-child li{
+							border-right: 1px solid rgba(238, 238, 238, 0.1);
+						}
+					li{
+						display: inline-block;
+						border-left: 1px solid rgba(238, 238, 238, 0.1);
+						padding: 12px 15px;
+						color: @light_gray;
+						font-weight: 400;
+						font-family: "Roboto";
+						font-size: 14px;
+						&:hover{
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.greeting{
+			text-align: center;
+			padding-top: 14px;
+			color: @light_gray;
+			&:hover{
+				color:#fff;
+			}
+		}
+	}
+	.logo_box{
+		position: relative;
+		height: 100px;
+		.arrow{
+			position: absolute;
+			z-index: 10;
+			right: 0;
+		}
+		.logo{
+			position: absolute;
+			z-index: 20;
+			height: 100px;
+		}
+	}
+	.social{
+		position: relative;
+	}
+	.navbar{
+		margin-bottom: 0;
+		.navbar-header{
+			button.navbar-toggle{
+				background-color: #fff;
+				margin-top: 33px;
+			}
+			.icon-bar{
+				background-color: @gray;
+			}
+		}
+		#responsive-menu{
+			ul{
+				text-align: center;
+				li{
+					a{
+						color: rgba(255,255,255,0.6);
+						&:hover{
+							color: #333;
+						}
+					}
+				}
+			}
+		}
+	}
+	.phones, .adress{
+		display: block;
+		width: 170px;
+		margin: 0 auto;
+		color: rgba(255,255,255,0.6);
+		font-family: Merriweather;
+		font-weight: 800;
+		i{
+			float: left;
+			font-size: 30px;
+			margin-top: 5px;
+			margin-right: 15px;
+		}
+		span{
+			float: left;
+			font-weight: 100;
+			font-family: Roboto;
+		}
+		li{
+			font-family: Merriweather;
+			font-weight: 800;
+		}
+		p{
+			margin-bottom: 0;
+		}
+	}
+	.header_social{
+		height: 80px;
+		.social{
+			text-align: center;
+			position: relative;
+			.social_box{
+				position: absolute;
+				z-index: 20;
+				text-align: center;
+				top:0;
+				width: 100%;
+				padding-top: 10px;
+				ul a li{
+					display: inline-block;
+					i{
+						color: @light_gray;
+						font-size: 20px;
+						padding: 10px 20px;
+						&:hover{
+							color: @gray;
+						}
+					}
+				}
+			}
+			.arrow_social{
+				position: absolute;
+				z-index: 10;
+			}
+		}
+	}
+	.header_navigation{
+		margin-top: -19px;
+		.navbar{
+			border: 0;
+			margin-top: -50px;
+			#responsive-menu{
+				ul{
+					text-align: center;
+					li{
+						padding: 20px 5px;
+						border-bottom: 3px solid transparent;
+						&:hover{
+							border-bottom: 3px solid #FBD232;
+						}
+						a{
+							color: #777;
+							text-transform: uppercase;
+							font-size: 13px;
+							font-weight: 600;
+							&:hover, &:focus{
+								background-color: transparent;
+								color: #111;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/*****************************
+			topic
+*****************************/
+section.topic{
+	background: #323134;
+	color: #fff;
+	text-align: center;
+	h2{
+		font-family: Merriweather;
+		font-weight: 900;
+		font-size: 36px;
+		padding: 10px 0px;
+		padding-bottom: 25px;
+	}
+}
+/*****************************
+			footer
+*****************************/
+footer{
+	background: url(../images/footer_fon.jpg);
+	box-shadow:0 0 0 408px rgba(0, 0, 0, 0.853) inset;
+	padding-bottom: 29px;
+	.deskription{
+		color: @light_gray;
+		font-size: 12.5px;
+		h3{
+			color: #fff;
+			font-size: 20px;
+		}
+		.short-line{
+			border-bottom: 2px solid @orange;
+			width: 20px;
+			display: inline-block;
+			margin-right: 5px;
+			margin-bottom: 10px;
+		}
+		.long_line{
+			border-bottom: 2px solid @orange;
+			width: 88%;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+		.about{
+			line-height: 1.58;
+		}
+		.tours{
+			.col-md-6{
+				padding-right: 0;
+				ul{
+					margin-top: -3px;
+					margin-bottom: 0;
+					a{
+						color: @light_gray;
+						font-size: 12.5px;
+						text-decoration: none;
+						&:hover{
+							color:@orange;
+						}
+						li{
+							padding:3px 0;
+							font-size: 12.5px;
+							&:before{
+								content: "›";
+								font-size: 17px;
+								margin-left: -15px;
+								margin-right: 15px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.contacts{
+			ul li{
+				padding:6.5px 0;
+				i{
+					margin-right: 20px;
+					&.fa-mobile{
+						padding-left:4px;
+					}
+				}
+			}
+		}
+	}
+}
+section.footer_social{
+	background: #323134;
+	height: 19px;
+	.social{
+		text-align: center;
+		position: relative;
+		margin-top: -19px;
+		img{
+			position: absolute;
+			z-index: 10;
+			right: 0;
+		}
+		.social_box{
+			margin-top: -19px;
+			position: absolute;
+			z-index: 20;
+			text-align: right;
+			top:0;
+			width: 100%;
+			padding-top: 10px;
+			ul {
+				margin-bottom: 0;
+				margin-top: 9px;
+				a li{
+					display: inline-block;
+					background: url(../images/arrow_menu_right.png);
+					width: 67px;
+					height: 38px;
+					margin-right: -16px;
+					&:hover{
+						background: url(../images/arrow_menu_right_h.png);
+					}
+					i{
+						color: #fff;
+						font-size: 20px;
+						padding: 10px 20px;
+						&:hover{
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.arrow_social{
+			position: absolute;
+			z-index: 10;
+		}
+	}
+}
+/*****************************
+			media
+*****************************/
+
+
+@media screen and (max-width: 768px){
+
+}
+@media screen and (min-width: 768px){
+	header {
+		background: transparent;
+		.header_top {
+			nav ul{
+				text-align: right;
+				a li{ padding: 12px 25px;}
+			}
+			.greeting{ text-align: left;}
+		}
+		.header_content{
+			background: #323134;
+			.adress, .phones{
+				color: #fff;
+				margin-top: 30px;
+				margin-left: 30px;
+				width: 100%;
+				i{
+					color: @orange;
+				}
+				span{
+					color: rgba(255, 255, 255, 0.6);
+				}
+			}
+		}
+		.header_social{
+			.social{
+				text-align: left;
+				margin-top: -19px;
+				.social_box{
+					text-align: left;
+					width: 100%;
+					padding-top: 0;
+					ul {
+						margin-left: 15px;
+						a li{
+							background: url(../images/arrow_menu_left.png);
+							width: 63px;
+							height: 38px;
+							margin-left: -16px;
+							&:hover{
+								background: url(../images/arrow_menu_left_h.png);
+							}
+							i{
+								color: #fff;
+								font-size: 20px;
+								padding: 10px 20px;
+								&:hover{
+									color: #fff;
+								}
+							}
+						}
+					}
+				}
+				.arrow_social{
+					position: absolute;
+					z-index: 10;
+				}
+			}
+		}
+	}
+	section.topic{
+		text-align: left;
+	}
+}
+@media screen and (min-width: 992px){
+	header .header_content{
+		.adress, .phones{
+			margin-top: 20px;
+			margin-left: 0;
+			font-size: 20px;
+			i{
+				margin-top: 10px;
+				color: @orange;
+			}
+			span{
+			}
+		}
+		.logo_box .arrow{
+			right: 40px;
+		}
+	}
+	header .header_navigation{
+		.navbar #responsive-menu ul li{
+			padding: 20px 20px;
+			a{
+				font-size: 15px;
+			}
+		}
+	}
+	section.topic{
+		padding-bottom: 30px;
+	}
+	footer .deskription{
+		padding-top: 40px;
+		h3{
+			padding-bottom: 10px;
+		}
+		.short-line{
+			margin-bottom: 20px;
+		}
+		.long_line{
+			margin-bottom: 20px;
+		}
+		.tours{
+			.col-md-6{
+				padding-right: 0;
+				ul{
+					margin-bottom: 0;
+					a{
+						color: @light_gray;
+						font-size: 14px;
+						text-decoration: none;
+						&:hover{
+							color:@orange;
+						}
+						li:before{
+							content: "›";
+							font-size: 17px;
+							margin-left: -15px;
+							margin-right: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
