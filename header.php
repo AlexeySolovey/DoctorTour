@@ -12,7 +12,7 @@
 							<ul>
 								<a href="news.php"><li>Новости</li></a>
 								<a href="about.php"><li>О компании</li></a>
-								<a href="#"><li>Контакты</li></a>
+								<a href="contacts.php"><li>Контакты</li></a>
 							</ul>
 						</nav>
 					</div>
