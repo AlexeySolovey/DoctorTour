@@ -1,6 +1,8 @@
 @orange: #ff6501;
 @gray: #3f3f3f;
+@yellow:#FAD232;
 @light_gray: rgba(255,255,255,.6);
+@light-gray:#323234;
 /*****************************
 			fonts
 *****************************/
@@ -20,6 +22,9 @@
 /*****************************
 			main
 *****************************/
+body{
+    overflow-x: hidden
+}
 a:hover{
 	cursor: pointer;
 }
@@ -109,8 +114,15 @@ header{
 		}
 		#responsive-menu{
 			ul{
+                margin-top: -11px;
 				text-align: center;
 				li{
+                     &:hover{
+                            background-color:@orange;
+                            a{
+                                color: white !important;
+                            }
+                        }
 					a{
 						color: rgba(255,255,255,0.6);
 						&:hover{
@@ -187,10 +199,6 @@ header{
 					text-align: center;
 					li{
 						padding: 20px 5px;
-						border-bottom: 3px solid transparent;
-						&:hover{
-							border-bottom: 3px solid @orange;
-						}
 						a{
 							color: #777;
 							text-transform: uppercase;
@@ -649,6 +657,118 @@ section.about{
     }
 }
 
+/*****************************
+		     news
+*****************************/
+section.news{
+    .container-fluid{
+        .row{
+            background-color:@light_gray;
+        }
+    }
+}
+
+
+/*****************************
+		     contacts
+*****************************/
+section.contacts{
+    .container-fluid{
+        .row{
+            padding: 18px 45px 0 45px;
+            background-color:@light-gray;
+            color:white;
+            margin-bottom:50px;
+        }
+    }
+    .phone-numbers{
+        padding-top: 70px;
+        height: 225px;
+        background:url(../images/smartphone.jpg) no-repeat center;
+        background-size:cover;
+        box-shadow:0 0 0 128px rgba(0, 0, 0, 0.75) inset;
+        text-align: center;
+        margin-bottom: 22px;
+         p{
+            font-size: 28px;
+            color:@yellow;
+         }
+    }
+    .other-contacts{
+        margin-bottom:30px;
+        ul{
+            display:inline-block;
+            li{
+                .contacts-img{
+                    background:url(../images/figure_hexagone.png) no-repeat center;
+                    background-size:contain;
+                    height:55px;
+                    width:55px;
+                    float:left;
+                    position: relative;
+                    top: 15px;
+                    right: 13px;
+                    margin-right: 5px;
+                    i{
+                        color:white;
+                        font-size: 20px;
+                        padding: 17px 18px;
+                    }
+                }
+                .contacts-text{
+                    display:inline-block;
+                    h3{
+                        font-size: 19px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .contacts-map{
+        margin-bottom:15px;
+    }
+    .contact-inputs{
+       
+        .top-input{
+            width: 49%;
+            margin: 0 2px;
+            margin-bottom: 8px;
+        }
+         input{
+            width:100%;
+            font-size: 10px;
+            padding: 7px 12px;
+            margin-bottom: 8px;
+        }
+         textarea{
+             width:100%;
+            font-size: 10px;
+            padding: 7px 12px;
+            height: 100px;
+         }
+         button{
+             color:white;
+             background-color:@orange;
+             margin: 15px 0 25px 0;
+            font-size: 10px;
+            padding: 7px 12px;
+         }
+    }
+}
+
+@media screen and (max-width: 994px){
+section.contacts{
+    .contact-inputs{
+
+        .top-input{
+            width: 100%;
+            margin: 0 2px;
+            margin-bottom: 8px;
+        }
+}
+}
+
 
 @media screen and (min-width: 992px){
 	header .header_content{
@@ -715,4 +835,5 @@ section.about{
 }
 @media screen and (min-width: 1200px){
 	section.find_tour .request{padding-right: 210px;}
+}
 }
