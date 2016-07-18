@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Поиск туров</h2>
+					<h2>Горящие туры</h2>
 				</div>
 			</div>
 		</div>
@@ -36,7 +36,8 @@
 					</div>
 				</div>
 				<div class="hidden-xs hidden-sm col-md-3">
-					<img src="images/module_min_price.png" alt="min_price" class="img-responsive">
+					<img src="images/module_popular.png" alt="popular" class="img-responsive">
+					<img src="images/module_news.png" alt="news" class="img-responsive">
 				</div>
 			</div>
 		</div>

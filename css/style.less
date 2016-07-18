@@ -214,6 +214,7 @@ section.topic{
 	background: #323134;
 	color: #fff;
 	text-align: center;
+	margin-bottom: 65px;
 	h2{
 		font-family: Merriweather;
 		font-weight: 900;
@@ -341,6 +342,51 @@ section.footer_social{
 		}
 	}
 }
+
+/*////////////////////////////////////////////////////////
+			find tour
+/////////////////////////////////////////////////////////*/
+section.find_tour{
+	.request{
+		position: relative;
+		z-index: 10;
+		background: #eee;
+		margin: 50px 0;
+		padding:30px 0;
+		text-align: center;
+		button{
+			border: 0;
+			background: @orange;
+			padding:10px 20px;
+			text-transform: uppercase;
+			&:hover{
+				color: #fff;
+			}
+		}
+		h3{
+			font-weight: 600;
+			color: #1d2736;
+		}
+		p{
+			padding:0 20px;
+			color: #777;
+		}
+		.figure_hexagone{
+			width: 63px;
+			height: 54px;
+			background: url(../images/figure_hexagone.png);
+			background-size: cover;
+			margin: 0 auto;
+			i{
+				margin-top: 13px;
+				font-size: 28px;
+			}
+		}
+		.text_request{
+		}
+	}
+}
+
 /*****************************
 			media
 *****************************/
@@ -413,6 +459,66 @@ section.footer_social{
 	section.topic{
 		text-align: left;
 	}
+	/************find tour******************/
+	section.find_tour{
+		.request{
+			position: relative;
+			z-index: 10;
+			background: transparent;
+			margin: 50px 0;
+			padding:0;
+			padding-right: 260px;
+			height: 180px;
+			.text_request{
+				position: relative;
+				background: #eee;
+				height: 180px;
+				float: left;
+				padding-left: 60px;
+				&:after{
+					content: '';
+					display: block;
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 90px 0 90px 52px;
+					border-color: transparent transparent transparent #eee;
+					position: absolute;
+					top: 0px;
+					right: -52px;
+					z-index: 2;
+				}
+				h3{
+					text-align: left;
+					font-size: 32.5px;
+					padding-top: 37px;
+					margin-bottom: 5px;
+				}
+				p{
+					text-align: left;
+					padding:0;
+				}
+			}
+			button{
+				position: absolute;
+				z-index: 10;
+				right: 0;
+				top: 50%;
+				margin-top: -20px;
+			}
+			.figure_hexagone{
+				position: absolute;
+				z-index: 10;
+				width: 63px;
+				height: 54px;
+				top:50%;
+				margin-top: -27px;
+				left:-13px;
+				background: url(../images/figure_hexagone.png);
+				background-size: cover;
+			}
+		}
+	}
 }
 @media screen and (min-width: 992px){
 	header .header_content{
@@ -476,4 +582,7 @@ section.footer_social{
 			}
 		}
 	}
+}
+@media screen and (min-width: 1200px){
+	section.find_tour .request{padding-right: 210px;}
 }
