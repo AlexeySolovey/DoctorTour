@@ -10,8 +10,8 @@
 					<div class="col-xs-12 col-sm-8">
 						<nav>
 							<ul>
-								<a href="#"><li>Новости</li></a>
-								<a href="#"><li>О компании</li></a>
+								<a href="news.php"><li>Новости</li></a>
+								<a href="about.php"><li>О компании</li></a>
 								<a href="#"><li>Контакты</li></a>
 							</ul>
 						</nav>
