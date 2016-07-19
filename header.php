@@ -44,7 +44,8 @@
 									<li><a href="hotTour.php">Горящие туры</a></li>
 									<li><a href="#">Медицинские туры</a></li>
 									<li><a href="#">Типы туров</a></li>
-									<li><a href="#">Услуги</a></li>
+									<li><a href="services.php">Услуги</a></li>
+                                    <li><a href="about.php">О компании</a></li>
 								</ul>
 							</div>
 						</div>
@@ -53,16 +54,16 @@
 						<div class="phones">
 							<i class="fa fa-phone"></i>
 							<ul>
-								<li>38(044)999-99-99</li>
-								<li>38(093)999-99-99</li>
+								<li>+380 (57) 760-47-42</li>
+								<li>+380 (57) 760-47-09</li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-5 col-md-6">
 						<div class="adress">
 							<i class="fa fa-home"></i>
-							<p>Улица Агентская 12, оф.405</p>
-							<span>Киев, Украина</span>
+							<p>ул. Новгородская 3-Б, 1эт</p>
+							<span>Харьков, Украина</span>
 						</div>
 					</div>
 				</div>
@@ -82,12 +83,11 @@
 									<a href="#"><li>
 										<i class="fa fa-facebook"></i>
 									</li></a>
-									<a href="#"><li>
-										<i class="fa fa-google-plus"></i>
-									</li></a>
-									<a href="#"><li>
-										<i class="fa fa-youtube-play"></i>
-									</li></a>
+                                    <a href="#">
+                                        <li>
+                                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        </li>
+                                    </a>
 								</ul>
 							</div>
 						</div>

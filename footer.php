@@ -15,22 +15,23 @@
 						<h3>Наши туры</h3>
 						<div class="short-line"></div>
 						<div class="long_line"></div>
-						<div class="col-md-6">
-							<ul>
-								<a href="findTour.php"><li>Поиск туров</li></a>
-								<a href="#"><li>Экотуры</li></a>
-								<a href="#"><li>Свадебные туры</li></a>
-								<a href="#"><li>Туры выходного дня</li></a>
-							</ul>
-						</div>
-						<div class="col-md-6">
-							<ul>
-								<a href="#"><li>Круизы</li></a>
-								<a href="#"><li>Гастро-туры</li></a>
-								<a href="#"><li>Туры по Украине</li></a>
-								<a href="#"><li>Экстремальные туры</li></a>
-							</ul>
-						</div>
+                        <div class="col-md-6">
+                            <ul>
+                                <a href="findTour.php">
+                                    <li>Поиск туров</li>
+                                </a>
+                                <a href="#">
+                                    <li>Горящие туры</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <a href="#">
+                                    <li>Мудицинские туры</li>
+                                </a>
+                            </ul>
+                        </div>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -41,19 +42,19 @@
 						<ul>
 							<li>
 								<i class="fa fa-map-marker"></i>
-								<span>Киев, Украина. Ул. Агентская 123, оф. 123</span>
+								<span>Харьков, ул. Новгородская 3-Б, 1эт</span>
 							</li>
 							<li>
 								<i class="fa fa-phone"></i>
-								<span>+38 (044) 999-99-99</span>
+								<span>+380 (57) 760-47-42</span>
 							</li>
 							<li>
 								<i class="fa fa-mobile"></i>
-								<span>+38 (063) 999-99-99</span>
+								<span>+380 (57) 760-47-42</span>
 							</li>
 							<li>
 								<i class="fa fa-envelope"></i>
-								<span>mail@mail.com</span>
+								<span>tour.doctor@gmail.com</span>
 							</li>
 							<li>
 								<i class="fa fa-clock-o"></i>
@@ -80,12 +81,11 @@
 							<a href="#"><li>
 								<i class="fa fa-facebook"></i>
 							</li></a>
-							<a href="#"><li>
-								<i class="fa fa-google-plus"></i>
-							</li></a>
-							<a href="#"><li>
-								<i class="fa fa-youtube-play"></i>
-							</li></a>
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </li>
+                            </a>
 						</ul>
 					</div>
 				</div>

@@ -29,10 +29,10 @@
                     <aside>
                         <div class="phone-numbers">
                             <p>
-                                +38 (044) 999-99-99
+                                +380 (57) 760-47-42
                             </p>
                             <p>
-                                +38 (044) 999-99-99
+                                +380 (57) 760-47-09
                             </p>
                         </div>
                         <p>Вы можете связаться с нами по телефону или оставиь заявку через контактную форму</p>
@@ -41,15 +41,15 @@
                                <li>
                                    <div class="contacts-img"><i class="fa fa-phone" aria-hidden="true"></i></div>
                                    <div class="contacts-text">
-                                       <h3>+38 (044) 999-99-99</h3>
-                                       <p>mail@mail.com</p>
+                                       <h3>+380 (57) 760-47-09</h3>
+                                       <p>tour.doctor@gmail.com</p>
                                    </div>
                                </li>
                                <li>
                                    <div class="contacts-img"><i class="fa fa-home" aria-hidden="true"></i></div>
                                    <div class="contacts-text">
-                                       <h3>Ул. Агентская 12, оф. 405</h3>
-                                       <p>Киев, Украина</p>
+                                       <h3>ул.Пушкинская, 57</h3>
+                                       <p>Харьков, Украина</p>
                                    </div>
                                </li>
                            </ul>
@@ -71,7 +71,6 @@
             </div>
         </div>
     </section>
-
 
 
     <?php include_once("footer.php"); ?>

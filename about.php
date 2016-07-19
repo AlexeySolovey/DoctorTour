@@ -11,58 +11,14 @@
 <body>
     <?php include_once("header.php"); ?>
 
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <div class="content">
+               <div class="top-img">
+                   <h1>О компании</h1>
+                   <span>Мы на рынке туризма с 2000 года!</span>
+               </div>
 
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Обгортка для слайдів -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-
-                                <div class="carousel-caption">
-                                    <h1> О компании</h1>
-                                    <h3>Мы на рырнке туризма с 2000 года</h3>
-                                </div>
-                            </div>
-                            <div class="item">
-
-                                <div class="carousel-caption">
-                                    <h1> О компании</h1>
-                                    <h3>Мы на рырнке туризма с 2000 года</h3>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <!--<img src="images/MNE.jpg" alt="...">-->
-                                <div class="carousel-caption">
-                                    <h1> О компании</h1>
-                                    <h3>Мы на рырнке туризма с 2000 года</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Управління -->
-                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Попередній</span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Наступний</span>
-                        </a>
-                    </div>
-
-
-                </div>
             </div>
         </div>
     </div>
@@ -208,8 +164,6 @@
         </div>
     </section>
     <?php include_once("footer.php"); ?>
-
-
 
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>

@@ -36,8 +36,92 @@
 					</div>
 				</div>
 				<div class="hidden-xs hidden-sm col-md-3">
-					<img src="images/module_popular.png" alt="popular" class="img-responsive">
-					<img src="images/module_news.png" alt="news" class="img-responsive">
+					<div class="popular-list">
+                        <h3>Популярные направления</h3>
+                        <hr />
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Греция</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Египет
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Индия
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Испания
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Мальдивы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Турция
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Таиланд
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Черногория
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Шри-Ланка
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-list">
+                        <h3>Последние новости</h3>
+                        <hr />
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                    5 городов в Европе, о которых не знают туристы
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                    Эмираты становятся доступнее
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                    На Кипр заметно увеличат перевозку
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                    Тайные комнаты обнаружены в гробнице Тутанхамона
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                    Hilton открывает сеть эконом отелей
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 				</div>
 			</div>
 		</div>
