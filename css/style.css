@@ -30,7 +30,11 @@ a:focus {
   /*отключить background*/
 }
 button {
+  color: white;
   outline: none;
+}
+button:hover {
+  background-color: #323234 !important;
 }
 ul {
   padding-left: 0;
@@ -41,6 +45,9 @@ ul li {
 .container {
   max-width: 1060px;
   min-width: 320px;
+}
+i {
+  color: white;
 }
 /*****************************
 			header
@@ -633,6 +640,7 @@ section.about .our-team ul li img {
 }
 section.about .our-team ul li span {
   font-size: 12px;
+  color: #777777;
 }
 section.about .our-team ul li h5 {
   color: #ff6501;
@@ -645,6 +653,9 @@ section.about .our-team .social li {
   display: inline-block;
   float: left;
   margin-right: 12px;
+}
+section.about .our-team .social li a i {
+  color: #888888;
 }
 /*****************************
 		     news
@@ -773,6 +784,9 @@ section.services .service-item a {
   top: 105px;
   float: right;
   text-decoration: none;
+}
+section.services .service-item a:hover {
+  background-color: #323234;
 }
 section.services .service-question {
   background-color: #EEEEEE;

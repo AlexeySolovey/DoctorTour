@@ -33,7 +33,11 @@ a:focus {
 	background: transparent; /*отключить background*/
 }
 button{
+    color:white;
 	outline: none;
+}
+button:hover{
+    background-color:@light-gray !important;
 }
 ul{
 	padding-left: 0;
@@ -44,6 +48,9 @@ ul{
 .container{
 	max-width: 1060px;
 	min-width: 320px;
+}
+i{
+    color:white;
 }
 /*****************************
 			header
@@ -656,6 +663,7 @@ section.about{
                 }
             span{
                 font-size:12px;
+                color:#777777;
                 }
             h5{
                 color:@orange;
@@ -670,6 +678,11 @@ section.about{
               display:inline-block;
               float:left;
               margin-right:12px;
+              a{
+                  i{
+                      color:#888888;
+                  }
+              }
             } 
       }
     }
@@ -820,6 +833,9 @@ section.services{
             top: 105px;
             float: right;
             text-decoration:none;
+        }
+        a:hover{
+            background-color:@light-gray;
         }
     }
     .service-question{
