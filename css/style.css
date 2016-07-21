@@ -397,6 +397,7 @@ section.find_tour .request .figure_hexagone {
   margin: 0 auto;
 }
 section.find_tour .request .figure_hexagone i {
+  color: white;
   margin-top: 13px;
   font-size: 28px;
 }
