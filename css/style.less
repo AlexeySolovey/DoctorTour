@@ -150,7 +150,13 @@ header{
 			float: left;
 			font-weight: 100;
 			font-family: Roboto;
+            display:inline-block;
+            width:100%;
 		}
+        ul{
+            display:inline-block;
+            margin-left:35px;
+        }
 		li{
 			font-family: Merriweather;
 			font-weight: 800;
@@ -434,7 +440,7 @@ section.find_tour{
 			background: #323134;
 			.adress, .phones{
 				color: #fff;
-				margin-top: 30px;
+				margin-top: 20px;
 				margin-left: 30px;
 				width: 100%;
 				i{
@@ -680,6 +686,51 @@ section.news{
     }
 }
 
+/*****************************
+		     news-open
+*****************************/
+
+section.news-open{
+    .container-fluid{
+        .row{
+            padding: 18px 45px 0 45px;
+            background-color:@light-gray;
+            color:white;
+            margin-bottom:50px;
+        }
+    }
+    .container{
+        img{
+            width:100%;
+            margin-bottom:20px;
+        }
+        article{
+            margin-bottom:70px;
+         }
+        p{
+            line-height: 25px;
+        }
+        hr{
+            margin-bottom:40px;
+        }
+        .to-news{
+            padding: 10px 75px;
+            position: relative;
+            bottom: 29px;
+            background-color: @orange;
+            color: white;
+            text-decoration:none;
+            .triangle{
+                    content: '';
+                position: absolute;
+                left: 222px;
+                bottom: 0px;
+                border: 18px solid transparent;
+                border-left: 19px solid #ff6501;
+            }
+        }
+    }
+ }
 
 /*****************************
 		  services
@@ -963,11 +1014,12 @@ section.index{
         background-color:#EEEEEE;
         padding: 40px 20px 40px 10px;
         margin-top: 60px;
+        margin-bottom:15px;
         .triangle {
             content: '';
             position: absolute;
             left: 512px;
-             bottom: -1px;
+             bottom: 17px;
             border: 97px solid transparent;
             border-left: 53px solid #EEEEEE;
         }
@@ -1124,7 +1176,13 @@ section.index{
     }
 
     .reviews{
-        margin:40px 0;
+        margin:0px 10px;
+        .owl-controls{
+                display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 62px;
+        }
         .reviews-text{
                display: inline-block;
                 padding: 25px;
@@ -1256,7 +1314,7 @@ section.index{
     }
 }
 
-@media screen and (max-width: 994px){
+@media screen and (max-width: 992px){
 section.services{
     }
     .our-services-top{
@@ -1267,7 +1325,10 @@ section.services{
                  padding-bottom: 30px !important;
             }
         }
+       section.news .right-block{
+        display:none !important;
     }
+
 section.contacts{
     .contact-inputs{
 
@@ -1290,6 +1351,7 @@ section.contacts{
 
      }
    }
+
 }
 
 @media screen and (max-width: 767px){
@@ -1375,4 +1437,6 @@ section.about .our-team ul {
 }
 @media screen and (min-width: 1200px){
 	section.find_tour .request{padding-right: 210px;}
+}
+
 }

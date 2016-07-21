@@ -8,6 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css" />
 </head>
 <body>
 	<?php include_once("header.php"); ?>
@@ -210,27 +215,82 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12">
-                    <div class="reviews">
-                        <h2><b>Отзывы наших клиентов</b></h2>
-                        <h7>Для нас нет ничего важнее, чем положительные отзывы наших клиентов.</h7>
-                        <div class="reviews-text">
+                <div class="col-md-12 reviews">
+                    <h2>
+                        <b>Отзывы наших клиентов</b>
+                    </h2>
+                    <h7>Для нас нет ничего важнее, чем положительные отзывы наших клиентов.</h7>
+                    <div id="owl-index" class="reviews-list owl-carousel">
+                        <div class="reviews">
+                            <div class="reviews-text">
                                 <div class="reviews-icon">
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                 </div>
-                            <span>Так получилось, что Вена стала первым городом, в котором мы с мужем побывали в Европе.
+                                <span>
+                                    Так получилось, что Вена стала первым городом, в котором мы с мужем побывали в Европе.
                             Ее очарование, блистательные концерты. Костюмированные балы, детские представления,
                             громадный парк Развлечений, катание на лошадях, парки, церкви, собор Св.
-                            Стефана. Впечатления потрясающие.</span>
-                        </div>
-                        <div class="reviews-user">
-                            <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/testimonial-1-70x70.jpg" />
-                            <div class="user-info">
-                                <h4><b>Ирина</b></h4>
-                                <p>Учитель</p>
+                            Стефана. Впечатления потрясающие.
+                                </span>
+                            </div>
+                            <div class="reviews-user">
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/testimonial-1-70x70.jpg" />
+                                <div class="user-info">
+                                    <h4>
+                                        <b>Ирина</b>
+                                    </h4>
+                                    <p>Учитель</p>
+                                </div>
                             </div>
                         </div>
+                        <div class="reviews">
+                            <div class="reviews-text">
+                                <div class="reviews-icon">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                </div>
+                                <span>
+                                    Отдохнули потрясающе!!!! С погодой нам как раз повезло: приехали — 
+                                    был ветер и солнце, на следующий день ветер стих. +30 днем и 25 вечером. 
+                                    Дожди кратковременные и в основном длятся 10-15 мин, как правило, ночью. Только последний день 
+                                    был дождливый, но это абсолютно не испортило настроение.
+                                </span>
+                            </div>
+                            <div class="reviews-user">
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/testimonial-2-70x70.jpg" />
+                                <div class="user-info">
+                                    <h4>
+                                        <b>Александра</b>
+                                    </h4>
+                                    <p>Уборщица</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <div class="reviews-text">
+                                <div class="reviews-icon">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                </div>
+                                <span>
+                                    Цієї осені в подорожі по Західній Україні ми вже втретє  — 
+                                    і позитивним емоціям немає меж!!! І не дивлячись на те, що 
+                                    більшість місць я вже бачив, але все одно відкрив для себе щось нове. 
+                                    Найбільше вразили Скелі Довбуша — до сих пір не можу повірити, що такий 
+                                    об»єкт є в Україні, і що я їх бачив!!!
+                                </span>
+                            </div>
+                            <div class="reviews-user">
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/testimonial-3-70x70.jpg" />
+                                <div class="user-info">
+                                    <h4>
+                                        <b>Роман</b>
+                                    </h4>
+                                    <p>Строитель</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
                
             </div>
@@ -302,5 +362,7 @@
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+    <!-- Include js plugin -->
+    <script src="js/owl.carousel.js"></script>
 </body>
 </html>

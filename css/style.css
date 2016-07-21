@@ -142,6 +142,13 @@ header .adress span {
   float: left;
   font-weight: 100;
   font-family: Roboto;
+  display: inline-block;
+  width: 100%;
+}
+header .phones ul,
+header .adress ul {
+  display: inline-block;
+  margin-left: 35px;
 }
 header .phones li,
 header .adress li {
@@ -415,7 +422,7 @@ section.find_tour .request .figure_hexagone i {
   header .header_content .adress,
   header .header_content .phones {
     color: #fff;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 30px;
     width: 100%;
   }
@@ -644,6 +651,44 @@ section.about .our-team .social li {
 *****************************/
 section.news .container-fluid .row {
   background-color: rgba(255, 255, 255, 0.6);
+}
+/*****************************
+		     news-open
+*****************************/
+section.news-open .container-fluid .row {
+  padding: 18px 45px 0 45px;
+  background-color: #323234;
+  color: white;
+  margin-bottom: 50px;
+}
+section.news-open .container img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+section.news-open .container article {
+  margin-bottom: 70px;
+}
+section.news-open .container p {
+  line-height: 25px;
+}
+section.news-open .container hr {
+  margin-bottom: 40px;
+}
+section.news-open .container .to-news {
+  padding: 10px 75px;
+  position: relative;
+  bottom: 29px;
+  background-color: #ff6501;
+  color: white;
+  text-decoration: none;
+}
+section.news-open .container .to-news .triangle {
+  content: '';
+  position: absolute;
+  left: 222px;
+  bottom: 0px;
+  border: 18px solid transparent;
+  border-left: 19px solid #ff6501;
 }
 /*****************************
 		  services
@@ -901,12 +946,13 @@ section.index .service-question {
   background-color: #EEEEEE;
   padding: 40px 20px 40px 10px;
   margin-top: 60px;
+  margin-bottom: 15px;
 }
 section.index .service-question .triangle {
   content: '';
   position: absolute;
   left: 512px;
-  bottom: -1px;
+  bottom: 17px;
   border: 97px solid transparent;
   border-left: 53px solid #EEEEEE;
 }
@@ -1049,7 +1095,13 @@ section.index .package-tours img {
   width: 100%;
 }
 section.index .reviews {
-  margin: 40px 0;
+  margin: 0px 10px;
+}
+section.index .reviews .owl-controls {
+  display: inline-block;
+  float: right;
+  position: relative;
+  bottom: 62px;
 }
 section.index .reviews .reviews-text {
   display: inline-block;
@@ -1160,7 +1212,7 @@ section.index .sponsors li:hover {
     display: none;
   }
 }
-@media screen and (max-width: 994px) {
+@media screen and (max-width: 992px) {
   .our-services-top {
     padding: 55px 0px 0 0 !important;
   }
@@ -1169,35 +1221,38 @@ section.index .sponsors li:hover {
     padding-left: 40px !important;
     padding-bottom: 30px !important;
   }
+  section.news .right-block {
+    display: none !important;
+  }
+  section.contacts .contact-inputs .top-input {
+    width: 100%;
+    margin: 0 2px;
+    margin-bottom: 8px;
+  }
+  section.contacts section.about .our-team ul {
+    width: 148px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  section.contacts section.index .tours-type .reviews-icon {
+    display: none;
+  }
 }
-section.contacts .contact-inputs .top-input {
-  width: 100%;
-  margin: 0 2px;
-  margin-bottom: 8px;
-}
-section.contacts section.about .our-team ul {
-  width: 148px !important;
-  margin-right: auto;
-  margin-left: auto;
-}
-section.contacts section.index .tours-type .reviews-icon {
-  display: none;
-}
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) and screen and (max-width: 767px) {
   section.services .service-button {
     margin-top: 22px;
     margin-bottom: 30px;
     float: right;
   }
 }
-@media screen and (max-width: 561px) {
+@media screen and (max-width: 992px) and screen and (max-width: 561px) {
   section.about .our-team ul {
     width: 148px;
     margin-right: auto;
     margin-left: auto;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) and screen and (min-width: 992px) {
   header .header_content .adress,
   header .header_content .phones {
     margin-top: 20px;
@@ -1254,7 +1309,7 @@ section.contacts section.index .tours-type .reviews-icon {
     margin-right: 15px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 992px) and screen and (min-width: 1200px) {
   section.find_tour .request {
     padding-right: 210px;
   }
