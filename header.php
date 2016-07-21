@@ -25,7 +25,7 @@
 					<div class="col-xs-6 col-sm-3">
 						<div class="logo_box">
 							<img src="images/arrow_logo.png" alt="arrow" class="arrow hidden-xs">
-							<img src="images/logo.jpg" alt="logo" class="logo">
+							<a href="index.php"><img src="images/logo.jpg" alt="logo" class="logo"></a>
 						</div>
 					</div>
 					<div class="navbar hidden-sm hidden-md hidden-lg">
@@ -51,20 +51,31 @@
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-md-3">
-						<div class="phones">
-							<i class="fa fa-phone"></i>
+						<div class="phones adress">
+							<!--<i class="fa fa-phone"></i>-->
+                            <div class="adress">
+                                <!--<i class="fa fa-home"></i>-->
+                                <p>ул. Новгородская 3-Б, 1эт</p>
+                                <span>Харьков, Украина</span>
+                            </div>
 							<ul>
-								<li>+380 (57) 760-47-42</li>
-								<li>+380 (57) 760-47-09</li>
+								<li>38 (057) 760-47-42</li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-5 col-md-6">
-						<div class="adress">
-							<i class="fa fa-home"></i>
-							<p>ул. Новгородская 3-Б, 1эт</p>
-							<span>Харьков, Украина</span>
+						<div class="phones adress">
+							<!--<i class="fa fa-home"></i>-->
+                            <div class="adress">
+                                <!--<i class="fa fa-home"></i>-->
+                                <p>ул. Новгородская 3-Б, 1эт</p>
+                                <span>Харьков, Украина</span>
+                            </div>
+                            <ul>
+                                <li>38 (057) 760-47-42</li>
+                            </ul>
 						</div>
+                       
 					</div>
 				</div>
 			</div>

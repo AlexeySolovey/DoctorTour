@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -99,28 +99,7 @@
                             </div>
 
                         </li>
-                        <li>
-                            <img src="http://theonering.ru/_pu/1/99052915.jpg" />
-                            <div class="member-info">
-                                <h5>Имя Фамилия</h5>
-                                <h6><b>Должность</b></h6>
-                                <span>Цитата — необязательное краткое содержание вашего текста, которое можно использовать в вашем шаблоне.</span>
-                                <br />
-                                <ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>
-                            </div>
-
-                        </li>
-                        <li>
-                            <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/08/call-2-150x150.jpg" />
-                            <div class="member-info">
-                                <h5>Имя Фамилия</h5>
-                                <h6><b>Должность</b></h6>
-                                <span>Цитата — необязательное краткое содержание вашего текста, которое можно использовать в вашем шаблоне.</span>
-                                <br />
-                                <ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>
-                            </div>
-
-                        </li>
+             
                     </ul>
                 </div>
                 <div class="col-md-6">
@@ -136,28 +115,7 @@
                             </div>
 
                         </li>
-                        <li>
-                            <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/08/call-1-150x150.jpg" />
-                            <div class="member-info">
-                                <h5>Имя Фамилия</h5>
-                                <h6><b>Должность</b></h6>
-                                <span>Цитата — необязательное краткое содержание вашего текста, которое можно использовать в вашем шаблоне.</span>
-                                <br />
-                                <ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>
-                            </div>
-
-                        </li>
-                        <li>
-                            <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/operator-3-150x150.jpg" />
-                            <div class="member-info">
-                                <h5>Имя Фамилия</h5>
-                                <h6><b>Должность</b></h6>
-                                <span>Цитата — необязательное краткое содержание вашего текста, которое можно использовать в вашем шаблоне.</span>
-                                <br />
-                                <ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>
-                            </div>
-
-                        </li>
+                   
                     </ul>
                 </div>
             </div>
