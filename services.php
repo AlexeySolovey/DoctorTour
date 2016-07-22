@@ -12,9 +12,17 @@
 <body>
     <?php include_once("header.php"); ?>
 
-
+    <section class="topic">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Услуги</h2>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="services">
-        <div class="container-fluid">
+        <!-- <div class="container-fluid">
             <div class="row">
                 <div class="container">
                     <div class="row">
@@ -22,7 +30,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -112,10 +120,7 @@
                     </div>
                 </div>
             </div>
-        
-
         </div>
-
     </section>
 
 
