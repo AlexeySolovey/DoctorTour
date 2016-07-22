@@ -33,7 +33,11 @@ a:focus {
 	background: transparent; /*отключить background*/
 }
 button{
+    color:white;
 	outline: none;
+}
+button:hover{
+    background-color:@light-gray !important;
 }
 ul{
 	padding-left: 0;
@@ -44,6 +48,9 @@ ul{
 .container{
 	max-width: 1060px;
 	min-width: 320px;
+}
+i{
+    color:white;
 }
 /*****************************
 			header
@@ -388,7 +395,6 @@ section.find_tour{
 		button{
 			border: 0;
 			background: @orange;
-
 			padding:10px 20px;
 			text-transform: uppercase;
 			&:hover{
@@ -410,7 +416,6 @@ section.find_tour{
 			background-size: cover;
 			margin: 0 auto;
 			i{
-                color:white;
 				margin-top: 13px;
 				font-size: 28px;
 			}
@@ -658,6 +663,7 @@ section.about{
                 }
             span{
                 font-size:12px;
+                color:#777777;
                 }
             h5{
                 color:@orange;
@@ -672,6 +678,11 @@ section.about{
               display:inline-block;
               float:left;
               margin-right:12px;
+              a{
+                  i{
+                      color:#888888;
+                  }
+              }
             } 
       }
     }
@@ -738,6 +749,8 @@ section.news-open{
 		  services
 *****************************/
 section.services{
+    display:inline-block;
+    margin-top:30px;
             .service-icon{
             height:55px;
             width:55px;
@@ -822,6 +835,9 @@ section.services{
             top: 105px;
             float: right;
             text-decoration:none;
+        }
+        a:hover{
+            background-color:@light-gray;
         }
     }
     .service-question{

@@ -41,8 +41,8 @@
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
 									<li><a href="findTour.php">Поиск туров</a></li>
-									<li><a href="hotTour.php">Горящие туры</a></li>
-									<li><a href="#">Медицинские туры</a></li>
+									<!--<li><a href="hotTour.php">Горящие туры</a></li>
+									<li><a href="#">Медицинские туры</a></li>-->
 									<li><a href="#">Типы туров</a></li>
 									<li><a href="services.php">Услуги</a></li>
                                     <li><a href="about.php">О компании</a></li>
@@ -122,10 +122,11 @@
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
 									<li><a href="findTour.php">Поиск туров</a></li>
-									<li><a href="hotTour.php">Горящие туры</a></li>
-									<li><a href="#">Медицинские туры</a></li>
+									<!--<li><a href="hotTour.php">Горящие туры</a></li>
+									<li><a href="#">Медицинские туры</a></li>-->
 									<li><a href="#">Типы туров</a></li>
-									<li><a href="#">Услуги</a></li>
+									<li><a href="services.php">Услуги</a></li>
+                                    <li><a href="about.php">О компании</a></li>
 								</ul>
 							</div>
 						</div>

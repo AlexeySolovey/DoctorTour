@@ -33,7 +33,7 @@
                             <span>Греция — страна удивительной красоты, где яркое солнце согревает жителей практически круглый год. Лазурное море, золотистые пляжи, белые дома, аромат крепкого кофе и хвойных растений — неповторимая атмосфера Греции располагает к незабываемому и потрясающему отдыху.</span>
                             <br />
                             <br />
-                            <a href="newsOpen.html">Подробнее >></a>
+                            <a href="newsOpen.php">Подробнее >></a>
                         </div>
                         <hr />
                     </div>
@@ -44,21 +44,21 @@
                                 <span>Греция - страна удивительной красоты, где яркое солнце согревает жителей почти круглый год.</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.html">Подробнее >></a>
+                                <a href="newsOpen.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
                                 <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/india-4.jpg" />
                                 <span>Индия – страна, в которой есть всё: пустыни и джунгли, тростниковые лачуги и дворцы...</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.html">Подробнее >></a>
+                                <a href="newsOpen.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
                                 <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/spain-1.jpg" />
                                 <span>Испания - страна сладкого вина и солнца, страна лазурного моря и величественных гор...</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.html">Подробнее >></a>
+                                <a href="newsOpen.php">Подробнее >></a>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
@@ -67,21 +67,21 @@
                                 <span>Мальдивы — это острова, рассеянные в середине Индийского океана, немного южнее Индии...</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.html">Подробнее >></a>
+                                <a href="newsOpen.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
                                 <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/thailand-4.jpg" />
                                 <span>Таиланд – древняя страна Сиам, окутанная легендами, в последние годы стал доступен...</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.html">Подробнее >></a>
+                                <a href="newsOpen.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
                                 <img src="images/MNE.jpg" />
                                 <span>Греция - страна удивительной красоты, где яркое солнце согревает жителей почти круглый год.</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.html">Подробнее >></a>
+                                <a href="newsOpen.php">Подробнее >></a>
                             </div>
                         </div>
                       
@@ -95,31 +95,31 @@
                         <hr />
                         <ul>
                             <li>
-                                <a href="newsOpen.html">
+                                <a href="newsOpen.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     5 городов в Европе, о которых не знают туристы
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.html">
+                                <a href="newsOpen.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     Эмираты становятся доступнее
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.html">
+                                <a href="newsOpen.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     На Кипр заметно увеличат перевозку
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.html">
+                                <a href="newsOpen.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     Тайные комнаты обнаружены в гробнице Тутанхамона
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.html">
+                                <a href="newsOpen.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     Hilton открывает сеть эконом отелей
                                 </a>
