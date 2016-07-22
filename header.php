@@ -75,7 +75,6 @@
                                 <li>38 (057) 760-47-42</li>
                             </ul>
 						</div>
-                       
 					</div>
 				</div>
 			</div>
@@ -125,7 +124,8 @@
 									<li><a href="hotTour.php">Горящие туры</a></li>
 									<li><a href="#">Медицинские туры</a></li>
 									<li><a href="#">Типы туров</a></li>
-									<li><a href="#">Услуги</a></li>
+									<li><a href="services.php">Услуги</a></li>
+                                    <li><a href="about.php">О компании</a></li>
 								</ul>
 							</div>
 						</div>
