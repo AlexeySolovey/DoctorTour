@@ -81,22 +81,22 @@
                             <br />
                             <select>
                                 <option>
-                                    Выберите город
+                                    Выберите страну
                                 </option>
                                 <option>
-                                    Кмев
+                                    Египет
                                 </option>
                                 <option>
-                                    Харьков
+                                    Турция
                                 </option>
                                 <option>
-                                    Днепр
+                                    Италия
                                 </option>
                                 <option>
-                                    Ровно
+                                    Бразилия
                                 </option>
                                 <option>
-                                    Львов
+                                    Пакистан
                                 </option>
                             </select>
                         </div>

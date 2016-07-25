@@ -32,7 +32,7 @@
 							<h3>Не нашли нужный тур?</h3>
 							<p>Отправте запрос и мы подберем тур, учитывая все ваши пожелания</p>
 						</div>
-						<button>Отправить запрос</button>
+						<button data-toggle="modal" data-target="#myModal">Отправить запрос</button>
 					</div>
 				</div>
 				<div class="hidden-xs hidden-sm col-md-3">
@@ -41,6 +41,57 @@
 			</div>
 		</div>
 	</section>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Закрити</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Напишите свои данные и наш менеджер с вами свяжется.</h4>
+                </div>
+                <div class="modal-body order-modal-body">
+                    <div class="modal-left pull-left">
+                        <input placeholder="Ваше имя*" type="text" />
+                        <br />
+                        <input placeholder="Ваш номер*" type="tel" />
+                        <br />
+                        <select>
+                            <option>
+                                Выберите страну
+                            </option>
+                            <option>
+                                Египет
+                            </option>
+                            <option>
+                                Турция
+                            </option>
+                            <option>
+                                Италия
+                            </option>
+                            <option>
+                                Бразилия
+                            </option>
+                            <option>
+                                Пакистан
+                            </option>
+                        </select>
+                    </div>
+                    <div class="modal-right pull-right">
+                        <textarea placeholder="В какой стране хотите отдохнуть"></textarea>
+                    </div>
+
+                </div>
+                <div class="modal-footer order-modal-footer">
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>-->
+                    <button type="button" class="btn">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 	<?php include_once("footer.php"); ?>
 
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
