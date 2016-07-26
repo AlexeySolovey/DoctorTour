@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8"> 
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -354,27 +354,27 @@
                     <div class="row">
                         <div class="col-md-offset-4 col-md-8">
                             <div class="send-message-block">
-                                <h1>Нет времени на поиски тура?</h1>
-                                <p>Отправьте запрос, используя контактную форму и наши менеджеры подберут для Вас подходящее решение</p>
-                                <div class="contact-inputs">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Ваше имя" class="top-input" />
+                                <form id="loginform" action="" method="post">
+                                    <h1>Нет времени на поиски тура?</h1>
+                                    <p>Отправьте запрос, используя контактную форму и наши менеджеры подберут для Вас подходящее решение</p>
+                                    <div class="contact-inputs">
+                                        <div class="row">
+                                            <div id="loginform" class="col-md-6">
+                                                <input type="text" placeholder="Ваше имя" name="login" class="top-input" />
+                                            </div>
+                                            <div id="loginform" class="col-md-6">
+                                                <input type="tel" placeholder="Ваш телефон" name="tel" class="top-input" />
+                                            </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <input type="tel" placeholder="Ваш телефон" class="top-input" />
+                                        <div class="row">
+                                            <div id="loginform" class="col-md-12">
+                                                <input type="email" name="email" placeholder="Ваш email" />
+                                                <textarea type="text" placeholder="Ваше сообщение"></textarea>
+                                                <button type="button" name="enter" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+                                            </div>
                                         </div>
                                     </div>
-                                   <div class="row">
-                                       <div class="col-md-12">
-                                           <input type="email" placeholder="Ваш email" />
-                                           <textarea type="text" placeholder="Ваше сообщение"></textarea>
-                                           <button type="button" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
-                                       </div>
-                                   </div>
-                                   
-                                    
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -386,22 +386,22 @@
                 <div class="col-md-12">
                     <ul class="sponsors">
                         <li>
-                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcToJfX6S_WqBqanQ0UyHfYdslFuqk_hVerihozgJ8wcnsJuVJyz" />
+                            <img src="images/partner_1.jpg" />
                         </li>
                         <li>
-                            <img src="https://combsracingeast.files.wordpress.com/2012/02/bikedrlogo.jpg?w=584" />
+                            <img src="images/partner_2.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.dallahgroup.net/wp-content/uploads/sites/5/2015/01/logo21.png" />
+                            <img src="images/partner_3.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.whitstabletownfc.co.uk/wp-content/uploads/2016/05/Fisher_F.C._logo-128x128.png" />
+                            <img src="images/partner_4.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.cvgt.com.au/wp-content/uploads/2015/09/mrklogo.png?0014e15139c0cf77d2803283ceb40240" />
+                            <img src="images/partner_5.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.bcbsks.com/images/special/logos/sfsi-wordpress.png" />
+                            <img src="images/partner_6.jpg" />
                         </li>
                     </ul>
                 </div>
@@ -413,8 +413,10 @@
 	<?php include_once("footer.php"); ?>
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
     <!-- Include js plugin -->
     <script src="js/owl.carousel.js"></script>
+
 </body>
 </html>
