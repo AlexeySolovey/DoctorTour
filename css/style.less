@@ -103,6 +103,8 @@ header{
 			position: absolute;
 			z-index: 20;
 			height: 100px;
+            position: relative;
+			top: 8px
 		}
 	}
 	.social{
@@ -749,8 +751,6 @@ section.news-open{
 		  services
 *****************************/
 section.services{
-    /* display:inline-block; */
-    margin-top:30px;
             .service-icon{
             height:55px;
             width:55px;
@@ -965,6 +965,58 @@ section.contacts{
          }
     }
 }
+/*****************************
+		     modal
+*****************************/
+
+.modal-content{
+    background-color: @orange;
+    color:white;
+}
+.order-modal-body{
+    display:inline-block;
+    width: 100%;
+    padding: 15px 20px;
+}
+.modal-left{
+    float:left;
+    width: 40%;
+    input{
+        font-size: 12px;
+        padding: 8px 10px 8px 10px;
+        width: 100%;
+        margin-bottom: 7px;
+        color:black;
+    }
+    select{
+        color:black;
+        padding: 8px;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+.modal-right{
+    float:right;
+    width: 60%;
+    padding: 0 20px;
+    textarea{
+        color:black;
+        width:100%;
+        height: 122px;
+        padding: 8px 10px 8px 10px;
+    }
+}
+.order-modal-footer{
+    button{
+        color:white;
+        border:1px solid white;
+        background-color:@orange !important;
+    }
+    button:hover{
+        color:@gray;
+    }
+}
+
 /*****************************
 		     news
 *****************************/

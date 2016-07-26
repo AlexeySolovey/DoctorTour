@@ -63,6 +63,56 @@
             </div>
         </div>
 
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                            <span class="sr-only">Закрити</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Напишите свои данные и наш менеджер с вами свяжется.</h4>
+                    </div>
+                    <div class="modal-body order-modal-body">
+                        <div class="modal-left pull-left">
+                            <input placeholder="Ваше имя*" type="text" />
+                            <br />
+                            <input placeholder="Ваш номер*" type="tel" />
+                            <br />
+                            <select>
+                                <option>
+                                    Выберите страну
+                                </option>
+                                <option>
+                                    Египет
+                                </option>
+                                <option>
+                                    Турция
+                                </option>
+                                <option>
+                                    Италия
+                                </option>
+                                <option>
+                                    Бразилия
+                                </option>
+                                <option>
+                                    Пакистан
+                                </option>
+                            </select>
+                        </div>
+                        <div class="modal-right pull-right">
+                            <textarea placeholder="В какой стране хотите отдохнуть"></textarea>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer order-modal-footer">
+                        <!--<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>-->
+                        <button type="button" class="btn">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container tours-type">
             <div class="row">
                 <div class="col-md-12">
@@ -160,7 +210,9 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <button class="btn">Подробнее о нас >></button>
+                                            <a href="about.php">
+                                                <button class="btn">Подробнее о нас >></button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +252,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="service-button">
-                                <button class="btn">ОТПРАВИТЬ ЗАПРОС</button>
+                                <button data-toggle="modal" data-target="#myModal" class="btn">ОТПРАВИТЬ ЗАПРОС</button>
                             </div>
                         </div>
                     </div>
@@ -310,12 +362,12 @@
                                             <input type="text" placeholder="Ваше имя" class="top-input" />
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" placeholder="Ваш телефон" class="top-input" />
+                                            <input type="tel" placeholder="Ваш телефон" class="top-input" />
                                         </div>
                                     </div>
                                    <div class="row">
                                        <div class="col-md-12">
-                                           <input type="text" placeholder="Ваш email" />
+                                           <input type="email" placeholder="Ваш email" />
                                            <textarea type="text" placeholder="Ваше сообщение"></textarea>
                                            <button type="button" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
                                        </div>

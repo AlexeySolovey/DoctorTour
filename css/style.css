@@ -1,4 +1,4 @@
-/*****************************
+﻿/*****************************
 			fonts
 *****************************/
 /*Roboto*/
@@ -704,10 +704,6 @@ section.news-open .container .to-news .triangle {
 /*****************************
 		  services
 *****************************/
-section.services {
-  /* display:inline-block; */
-  margin-top: 30px;
-}
 section.services .service-icon {
   height: 55px;
   width: 55px;
@@ -847,7 +843,7 @@ section.contacts .phone-numbers {
 }
 section.contacts .phone-numbers p {
   font-size: 28px;
-  color: #fad232;
+  color: #FAD232;
 }
 section.contacts .other-contacts {
   margin-bottom: 30px;
@@ -904,6 +900,54 @@ section.contacts .contact-inputs button {
   margin: 15px 0 25px 0;
   font-size: 10px;
   padding: 7px 12px;
+}
+/*****************************
+		     modal
+*****************************/
+.modal-content {
+  background-color: #ff6501;
+  color: white;
+}
+.order-modal-body {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 20px;
+}
+.modal-left {
+  float: left;
+  width: 40%;
+}
+.modal-left input {
+  font-size: 12px;
+  padding: 8px 10px 8px 10px;
+  width: 100%;
+  margin-bottom: 7px;
+  color: black;
+}
+.modal-left select {
+  color: black;
+  padding: 8px;
+  font-size: 12px;
+  width: 100%;
+}
+.modal-right {
+  float: right;
+  width: 60%;
+  padding: 0 20px;
+}
+.modal-right textarea {
+  color: black;
+  width: 100%;
+  height: 122px;
+  padding: 8px 10px 8px 10px;
+}
+.order-modal-footer button {
+  color: white;
+  border: 1px solid white;
+  background-color: #ff6501 !important;
+}
+.order-modal-footer button:hover {
+  color: #3f3f3f;
 }
 /*****************************
 		     news
