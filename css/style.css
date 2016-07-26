@@ -49,6 +49,9 @@ ul li {
 i {
   color: white;
 }
+.error {
+  color: red;
+}
 /*****************************
 			header
 *****************************/
@@ -97,7 +100,9 @@ header .logo_box .arrow {
 header .logo_box .logo {
   position: absolute;
   z-index: 20;
-  height: 100px;
+  height: 88px;
+  position: relative;
+  top: 8px;
 }
 header .social {
   position: relative;
@@ -792,6 +797,7 @@ section.services .service-question {
   background-color: #EEEEEE;
   padding: 40px 10px 40px 40px;
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 section.services .service-question .triangle {
   content: '';
@@ -800,6 +806,7 @@ section.services .service-question .triangle {
   bottom: -1px;
   border: 87px solid transparent;
   border-left: 53px solid #EEEEEE;
+  margin-bottom: 30px;
 }
 section.services .service-question .service-icon {
   float: left;

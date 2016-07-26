@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8"> 
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -354,27 +354,29 @@
                     <div class="row">
                         <div class="col-md-offset-4 col-md-8">
                             <div class="send-message-block">
-                                <h1>Нет времени на поиски тура?</h1>
-                                <p>Отправьте запрос, используя контактную форму и наши менеджеры подберут для Вас подходящее решение</p>
-                                <div class="contact-inputs">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <input type="text" placeholder="Ваше имя" class="top-input" />
+                                <form id="loginform" action="" method="post">
+                                    <h1>Нет времени на поиски тура?</h1>
+                                    <p>Отправьте запрос, используя контактную форму и наши менеджеры подберут для Вас подходящее решение</p>
+                                    <div class="contact-inputs">
+                                        <div class="row">
+                                            <div id="loginform" class="col-md-6">
+                                                <input type="text" placeholder="Ваше имя" name="login" class="top-input" />
+                                            </div>
+                                            <div id="loginform" class="col-md-6">
+                                                <input type="tel" placeholder="Ваш телефон" name="tel" class="top-input" />
+                                            </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <input type="tel" placeholder="Ваш телефон" class="top-input" />
+                                        <div class="row">
+                                            <div id="loginform" class="col-md-12">
+                                                <input type="email" name="email" placeholder="Ваш email" />
+                                                <textarea type="text" placeholder="Ваше сообщение"></textarea>
+                                                <button type="button" name="enter" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+                                            </div>
                                         </div>
+
+
                                     </div>
-                                   <div class="row">
-                                       <div class="col-md-12">
-                                           <input type="email" placeholder="Ваш email" />
-                                           <textarea type="text" placeholder="Ваше сообщение"></textarea>
-                                           <button type="button" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
-                                       </div>
-                                   </div>
-                                   
-                                    
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -413,8 +415,11 @@
 	<?php include_once("footer.php"); ?>
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
+
     <!-- Include js plugin -->
     <script src="js/owl.carousel.js"></script>
+
 </body>
 </html>
