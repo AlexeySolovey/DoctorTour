@@ -42,12 +42,16 @@
 						<ul>
 							<li>
 								<i class="fa fa-map-marker"></i>
-								<span>Харьков, ул. Новгородская 3-Б, 1эт</span>
+								<span>Харьков, ул. Пушкинская 57</span>
 							</li>
 							<li>
 								<i class="fa fa-phone"></i>
-								<span>+380 (57) 760-47-42</span>
+								<span>+380 (57) 760-47-09</span>
 							</li>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>Харьков, ул. Новгородская 3-Б, 1эт</span>
+                            </li>
 							<li>
 								<i class="fa fa-mobile"></i>
 								<span>+380 (57) 760-47-42</span>

@@ -52,6 +52,24 @@
                                        <p>Харьков, Украина</p>
                                    </div>
                                </li>
+                               <li>
+                                   <div class="contacts-img">
+                                       <i class="fa fa-phone" aria-hidden="true"></i>
+                                   </div>
+                                   <div class="contacts-text">
+                                       <h3>+380 (57) 760-47-42</h3>
+                                       <p>tour.doctor@gmail.com</p>
+                                   </div>
+                               </li>
+                               <li>
+                                   <div class="contacts-img">
+                                       <i class="fa fa-home" aria-hidden="true"></i>
+                                   </div>
+                                   <div class="contacts-text">
+                                       <h3>ул.Новгородская, 3-Б</h3>
+                                       <p>Харьков, Украина</p>
+                                   </div>
+                               </li>
                            </ul>
                         </div>
                     </aside>

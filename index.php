@@ -210,7 +210,9 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <button class="btn">Подробнее о нас >></button>
+                                            <a href="about.php">
+                                                <button class="btn">Подробнее о нас >></button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -360,12 +362,12 @@
                                             <input type="text" placeholder="Ваше имя" class="top-input" />
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" placeholder="Ваш телефон" class="top-input" />
+                                            <input type="tel" placeholder="Ваш телефон" class="top-input" />
                                         </div>
                                     </div>
                                    <div class="row">
                                        <div class="col-md-12">
-                                           <input type="text" placeholder="Ваш email" />
+                                           <input type="email" placeholder="Ваш email" />
                                            <textarea type="text" placeholder="Ваше сообщение"></textarea>
                                            <button type="button" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
                                        </div>

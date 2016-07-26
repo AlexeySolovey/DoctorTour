@@ -41,9 +41,8 @@
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
 									<li><a href="findTour.php">Поиск туров</a></li>
-									<!--<li><a href="hotTour.php">Горящие туры</a></li>
-									<li><a href="#">Медицинские туры</a></li>-->
-									<li><a href="#">Типы туров</a></li>
+									<li><a href="hotTour.php">Горящие туры</a></li>
+									<li><a href="#">Медицинские туры</a></li>
 									<li><a href="services.php">Услуги</a></li>
                                     <li><a href="about.php">О компании</a></li>
 								</ul>
@@ -55,11 +54,11 @@
 							<!--<i class="fa fa-phone"></i>-->
                             <div class="adress">
                                 <!--<i class="fa fa-home"></i>-->
-                                <p>ул. Новгородская 3-Б, 1эт</p>
+                                <p>ул. Пушкинская 57</p>
                                 <span>Харьков, Украина</span>
                             </div>
 							<ul>
-								<li>38 (057) 760-47-42</li>
+								<li>38 (057) 760-47-09</li>
 							</ul>
 						</div>
 					</div>
@@ -122,9 +121,8 @@
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
 									<li><a href="findTour.php">Поиск туров</a></li>
-									<!--<li><a href="hotTour.php">Горящие туры</a></li>
-									<li><a href="#">Медицинские туры</a></li>-->
-									<li><a href="#">Типы туров</a></li>
+									<li><a href="hotTour.php">Горящие туры</a></li>
+									<li><a href="#">Медицинские туры</a></li>
 									<li><a href="services.php">Услуги</a></li>
                                     <li><a href="about.php">О компании</a></li>
 								</ul>
