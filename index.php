@@ -386,22 +386,22 @@
                 <div class="col-md-12">
                     <ul class="sponsors">
                         <li>
-                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcToJfX6S_WqBqanQ0UyHfYdslFuqk_hVerihozgJ8wcnsJuVJyz" />
+                            <img src="images/partner_1.jpg" />
                         </li>
                         <li>
-                            <img src="https://combsracingeast.files.wordpress.com/2012/02/bikedrlogo.jpg?w=584" />
+                            <img src="images/partner_2.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.dallahgroup.net/wp-content/uploads/sites/5/2015/01/logo21.png" />
+                            <img src="images/partner_3.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.whitstabletownfc.co.uk/wp-content/uploads/2016/05/Fisher_F.C._logo-128x128.png" />
+                            <img src="images/partner_4.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.cvgt.com.au/wp-content/uploads/2015/09/mrklogo.png?0014e15139c0cf77d2803283ceb40240" />
+                            <img src="images/partner_5.jpg" />
                         </li>
                         <li>
-                            <img src="http://www.bcbsks.com/images/special/logos/sfsi-wordpress.png" />
+                            <img src="images/partner_6.jpg" />
                         </li>
                     </ul>
                 </div>
