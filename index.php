@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="utf-8"> 
@@ -13,6 +13,8 @@
 
     <!-- Default Theme -->
     <link rel="stylesheet" href="css/owl.theme.css" />
+
+
 </head>
 <body>
 	<?php include_once("header.php"); ?>
@@ -413,13 +415,6 @@
     </section>
 
 	<?php include_once("footer.php"); ?>
-	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="js/common.js"></script>
-
-    <!-- Include js plugin -->
-    <script src="js/owl.carousel.js"></script>
 
 </body>
 </html>

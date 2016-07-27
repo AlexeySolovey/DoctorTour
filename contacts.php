@@ -76,7 +76,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="contacts-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d40654.59448612327!2d30.472586040889396!3d50.4427368817241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JrQuNC10LIsINCj0LsuINCQ0LPQtdC90YLRgdC60LDRjyAxMg!5e0!3m2!1suk!2sua!4v1468833162740" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.53679738485!2d36.241812450520236!3d50.001293179314914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0e81d17172d%3A0x1555bea8cf1a793e!2z0LLRg9C70LjRhtGPINCf0YPRiNC60ZbQvdGB0YzQutCwLCA1Nywg0KXQsNGA0LrRltCyLCDQpdCw0YDQutGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1suk!2sua!4v1469602229575" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <div class="contact-inputs">
                         <input type="text" placeholder="Ваше имя" class="top-input" />
@@ -92,8 +92,6 @@
 
 
     <?php include_once("footer.php"); ?>
-    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
+
 </body>
 </html>

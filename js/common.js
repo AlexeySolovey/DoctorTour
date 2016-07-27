@@ -17,6 +17,10 @@
 
 	    });
 
+	    $(function () {
+	        $.scrollUp();
+	    });
+
 	    $("#loginform").validate({
 
 	        rules: {
@@ -31,7 +35,7 @@
 	            tel: {
 	                required: true,
 	                digits : true,
-	                minlength: 12,
+	                minlength: 13,
 	                maxlength: 13,
 	            },
 	            email: {

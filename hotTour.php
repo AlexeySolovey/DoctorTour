@@ -41,52 +41,52 @@
                         <hr />
                         <ul>
                             <li>
-                                <a href="#">
-                                    <i class="fa fa-globe" aria-hidden="true"></i>Греция</a>
+                                <div href="#">
+                                    <i class="fa fa-globe" aria-hidden="true"></i>Греция</div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Египет
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Индия
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Испания
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Мальдивы
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Турция
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Таиланд
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Черногория
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Шри-Ланка
-                                </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="popular-list">
+                    <!--<div class="popular-list">
                         <h3>Последние новости</h3>
                         <hr />
                         <ul>
@@ -121,7 +121,7 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div>-->
 				</div>
 			</div>
 		</div>
@@ -178,8 +178,5 @@
         </div>
     </div>
 
-	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/common.js"></script>
 </body>
 </html>

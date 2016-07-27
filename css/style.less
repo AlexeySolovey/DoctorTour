@@ -19,6 +19,11 @@
   font-weight: 400;
   src: url(Merriweather.eot);
 }
+@font-face {
+    font-family: 'Merriweather-Bold';
+    src: url('../fonts/merriweather/Merriweather-Bold.ttf') format('truetype');
+}
+
 /*****************************
 			main
 *****************************/
@@ -55,6 +60,24 @@ i{
 .error{
     color:red;
 }
+#scrollUp {
+	bottom: 20px;
+	right: 20px;
+	width: 38px; /* Width of image */
+	height: 38px;  /* Height of image */
+	background: url(/images/top.png) no-repeat;
+}
+/*****************************
+			fonts add
+*****************************/
+p span{
+    font-family: 'Roboto';
+}
+h1 h2 h3 h4 h5 h6 b{
+    font-family: 'Merriweather-Bold';
+}
+
+
 /*****************************
 			header
 *****************************/
@@ -379,11 +402,15 @@ section.footer_social{
         }
         li{
             margin-bottom:10px;
+            div{
+                color:@light-gray;
+                text-decoration:none;
+            }
         }
-        a{
+        /*a{
             color:@light-gray;
             text-decoration:none;
-        }
+        }*/
         i{
             color: #FBD232;
             margin-right:10px;
@@ -754,7 +781,8 @@ section.news-open{
 		  services
 *****************************/
 section.services{
-            .service-icon{
+    .service-icon{
+            z-index:1000;
             height:55px;
             width:55px;
             padding: 17px;
@@ -762,7 +790,7 @@ section.services{
             background:url(../images/figure_hexagone.png) no-repeat center;
             background-size:contain;
             position: relative;
-            bottom: 18px;
+            bottom: 24px;
             right: 12px;
             i{
                 font-size: 22px;
@@ -775,6 +803,40 @@ section.services{
                 bottom: 2px;
             }
         }
+    .outside-div{
+        height: 199px;
+        overflow: hidden;
+        position: relative;
+        bottom: 53px;
+        a{
+             position: relative;
+             bottom: 52px;
+             height: 255px;
+        }
+        .service-name{
+                 display: inline-block;
+    position: relative;
+    padding: 15px 15px;
+    text-align: center;
+    white-space: nowrap;
+    float: right;
+    width: auto !important;
+    background: #ff6501;
+    color: white;
+    z-index: 10000;
+    bottom: 157px;
+    cursor: pointer;
+    text-decoration: none;
+    height: auto !important;
+    font-size: 90%;
+        }
+    }
+            
+            a{
+                display: inline-block;
+                width: 100%;
+                
+            }
     .container-fluid{
         .row{
             padding: 18px 45px 18px 45px;
@@ -830,7 +892,7 @@ section.services{
         height:200px;
 
 
-        a{
+        span{
             color: white;
             background-color: @orange;
             padding: 10px 15px;
@@ -838,10 +900,22 @@ section.services{
             top: 105px;
             float: right;
             text-decoration:none;
+                    -webkit-transition: transform 600ms;
+        -moz-transition: transform 600ms;
+        -o-transition: transform 600ms;
+        transition: transform 600ms;
         }
         a:hover{
             background-color:@light-gray;
+                    
         }
+    }
+    .outside-div:hover{
+        -webkit-transition: transform 600ms;
+        -moz-transition: transform 600ms;
+        -o-transition: transform 600ms;
+        transition: transform 600ms;
+        -webkit-transform: scale(1.5,1.5);
     }
     .service-question{
         background-color:#EEEEEE;
@@ -881,6 +955,87 @@ section.services{
         }
     }
 }
+
+
+/*****************************
+		 service-open
+*****************************/
+
+section.service-open{
+    .container-fluid{
+        .row{
+            padding: 18px 45px 0 45px;
+            background-color:@light-gray;
+            color:white;
+            margin-bottom:50px;
+        }
+    }
+    .container{
+        img{
+            width:100%;
+            margin-bottom:20px;
+        }
+        .find-tickets{
+            width:85%;
+        }
+        article{
+            margin-bottom:70px;
+            padding:0 20px;
+            p{
+                line-height: 25px;
+            }
+         }
+    
+        hr{
+            margin-bottom:40px;
+        }
+        .to-news{
+            padding: 10px 75px;
+            position: relative;
+            bottom: 29px;
+            background-color: @orange;
+            color: white;
+            text-decoration:none;
+            i{
+               margin-right: 8px;
+            }
+            .triangle{
+                    content: '';
+                position: absolute;
+                left: 219px;
+                bottom: 0px;
+                border: 18px solid transparent;
+                border-left: 19px solid #ff6501;
+            }
+        }
+        .popular-list{
+              margin-bottom:60px;
+              margin-top:60px;
+              h3{
+                    font-size: 23px;
+              }
+        hr{
+            margin-bottom:25px !important;
+        }
+        li{
+            margin-bottom:10px;
+            a{
+                color:@light-gray;
+                text-decoration:none;
+            }
+        }
+        /*a{
+            color:@light-gray;
+            text-decoration:none;
+        }*/
+        i{
+            color: #FBD232;
+            margin-right:10px;
+        }
+        }
+    }
+ }
+
 
 
 /*****************************
@@ -1337,7 +1492,6 @@ section.index{
 }
 
 
-
 @media screen and (max-width: 1199px){
     section.services{
 .service-question{
@@ -1390,6 +1544,11 @@ section.index{
 }
 
 @media screen and (max-width: 992px){
+section.service-open{
+    .right-block{
+        display:none;
+    }
+    }
 section.services{
     }
     .our-services-top{
