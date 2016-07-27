@@ -16,7 +16,7 @@
             <div class="col-sm-12">
                <div class="top-img">
                    <h1>О компании</h1>
-                   <span>Мы на рынке туризма с 2000 года!</span>
+                   <span>На рынке с 2008 года (8 лет опыта)</span>
                </div>
 
             </div>
@@ -121,8 +121,5 @@
     </section>
     <?php include_once("footer.php"); ?>
 
-    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
 </body>
 </html>

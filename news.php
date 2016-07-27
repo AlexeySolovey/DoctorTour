@@ -40,48 +40,48 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="news-div">
-                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/egypt-5.jpg" />
-                                <span>Греция - страна удивительной красоты, где яркое солнце согревает жителей почти круглый год.</span>
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/finland-850x500.jpg" />
+                                <span>В Финляндии проходит оперный фестиваль</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.php">Подробнее >></a>
+                                <a href="newsOpen_1.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
-                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/india-4.jpg" />
-                                <span>Индия – страна, в которой есть всё: пустыни и джунгли, тростниковые лачуги и дворцы...</span>
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/shanhai-850x500.jpg" />
+                                <span>Шанхай увеличил безвизовый транзит</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.php">Подробнее >></a>
+                                <a href="newsOpen_2.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
-                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/spain-1.jpg" />
-                                <span>Испания - страна сладкого вина и солнца, страна лазурного моря и величественных гор...</span>
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/hilton-850x500.jpg" />
+                                <span>Hilton открывает сеть эконом отелей</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.php">Подробнее >></a>
+                                <a href="newsOpen_3.php">Подробнее >></a>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div class="news-div">
-                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/maldives-4.jpg" />
-                                <span>Мальдивы — это острова, рассеянные в середине Индийского океана, немного южнее Индии...</span>
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/03/dubai-oae-850x500.jpg" />
+                                <span>Эмираты становятся доступнее</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.php">Подробнее >></a>
+                                <a href="newsOpen_4.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
-                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/thailand-4.jpg" />
-                                <span>Таиланд – древняя страна Сиам, окутанная легендами, в последние годы стал доступен...</span>
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/kipr-850x500.jpg" />
+                                <span>На Кипр заметно увеличат перевозку</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.php">Подробнее >></a>
+                                <a href="newsOpen_5.php">Подробнее >></a>
                             </div>
                             <div class="news-div">
-                                <img src="images/MNE.jpg" />
-                                <span>Греция - страна удивительной красоты, где яркое солнце согревает жителей почти круглый год.</span>
+                                <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/tutanhamon-850x500.jpg" />
+                                <span>Тайные комнаты обнаружены в гробнице Тутанхамона</span>
                                 <br />
                                 <br />
-                                <a href="newsOpen.php">Подробнее >></a>
+                                <a href="newsOpen_6.php">Подробнее >></a>
                             </div>
                         </div>
                       
