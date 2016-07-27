@@ -41,54 +41,66 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="service-item item-1">
-                        <div class="service-icon">
-                            <i class="fa fa-calendar"></i>
-                        </div>
-                        <a href="#">Продажа туров</a>
+                    <div class="service-icon">
+                        <i class="fa fa-calendar"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService.php" class="service-item item-1">
+                        </a>
+                        <a class="service-name" href="oneService.php">Продажа туров</a>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item item-2">
-                        <div class="service-icon">
-                            <i class="fa fa-plane"></i>
-                        </div>
-                        <a href="#">Авиабилеты</a>
+                    <div class="service-icon">
+                        <i class="fa fa-plane"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService.php" class="service-item item-2">
+                        </a>
+                        <a class="service-name" href="oneService.php">Авиабилеты</a>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item item-3">
-                        <div class="service-icon">
-                            <i class="fa fa-flag-o"></i>
-                        </div>
-                        <a href="#">Страхование</a>
+                    <div class="service-icon">
+                        <i class="fa fa-flag-o"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService.php" class="service-item item-3">
+                        </a>
+                        <a class="service-name" href="oneService.php">Страхование</a>
                     </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-4">
-                    <div class="service-item item-4">
-                        <div class="service-icon">
-                            <i class="fa fa-suitcase"></i>
-                        </div>
-                        <a href="#">Визовая поддержка</a>
+                    <div class="service-icon">
+                        <i class="fa fa-suitcase"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService.php" class="service-item item-4">
+                        </a>
+                        <a class="service-name" href="oneService.php">Визовая поддержка</a>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item item-5">
-                        <div class="service-icon">
-                            <i class="fa fa-mobile"></i>
-                        </div>
-                        <a href="#">TravelSim</a>
+                    <div class="service-icon">
+                        <i class="fa fa-mobile"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService.php" class="service-item item-5">
+                        </a>
+                        <a class="service-name" href="oneService.php">TravelSim</a>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item item-6">
-                        <div class="service-icon">
-                            <i class="fa fa-users"></i>
-                        </div>
-                        <a href="#">Образование за рубежом</a>
+                    <div class="service-icon">
+                        <i class="fa fa-plane"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService.php" class="service-item item-6">
+                        </a>
+                        <a class="service-name" href="oneService.php">Образование за рубежом</a>
                     </div>
                 </div>
             </div>
@@ -97,7 +109,7 @@
                 <div class="col-md-8">
                     <div class="service-question">
                         <div class="service-icon">
-                            <i class="fa fa-envelope-o"></i>
+                            <i class="fa fa-users"></i>
                         </div>
                         <div class="question-text">
                             <h2><b>Не нашли нужный тур?</b></h2>
@@ -170,8 +182,6 @@
 
 
     <?php include_once("footer.php"); ?>
-    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
+
 </body>
 </html>

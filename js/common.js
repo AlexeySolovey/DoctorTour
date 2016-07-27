@@ -17,6 +17,10 @@
 
 	    });
 
+	    $(function () {
+	        $.scrollUp();
+	    });
+
 	    $("#loginform").validate({
 
 	        rules: {

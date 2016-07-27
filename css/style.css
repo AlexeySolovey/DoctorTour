@@ -14,6 +14,10 @@
   font-weight: 400;
   src: url(Merriweather.eot);
 }
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url('../fonts/merriweather/Merriweather-Bold.ttf') format('truetype');
+}
 /*****************************
 			main
 *****************************/
@@ -51,6 +55,24 @@ i {
 }
 .error {
   color: red;
+}
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 38px;
+  /* Width of image */
+  height: 38px;
+  /* Height of image */
+  background: url(/images/top.png) no-repeat;
+}
+/*****************************
+			fonts add
+*****************************/
+p span {
+  font-family: 'Roboto';
+}
+h1 h2 h3 h4 h5 h6 b {
+  font-family: 'Merriweather-Bold';
 }
 /*****************************
 			header
@@ -361,6 +383,10 @@ section.footer_social .social .arrow_social {
 /////////////////////////////////////////////////////////*/
 .popular-list {
   margin-bottom: 60px;
+  /*a{
+            color:@light-gray;
+            text-decoration:none;
+        }*/
 }
 .popular-list hr {
   margin-bottom: 25px !important;
@@ -368,7 +394,7 @@ section.footer_social .social .arrow_social {
 .popular-list li {
   margin-bottom: 10px;
 }
-.popular-list a {
+.popular-list li div {
   color: #323234;
   text-decoration: none;
 }
@@ -710,6 +736,7 @@ section.news-open .container .to-news .triangle {
 		  services
 *****************************/
 section.services .service-icon {
+  z-index: 1000;
   height: 55px;
   width: 55px;
   padding: 17px;
@@ -717,7 +744,7 @@ section.services .service-icon {
   background: url(../images/figure_hexagone.png) no-repeat center;
   background-size: contain;
   position: relative;
-  bottom: 18px;
+  bottom: 24px;
   right: 12px;
 }
 section.services .service-icon i {
@@ -729,6 +756,38 @@ section.services .service-icon .fa-mobile {
   padding: 0px;
   position: relative;
   bottom: 2px;
+}
+section.services .outside-div {
+  height: 199px;
+  overflow: hidden;
+  position: relative;
+  bottom: 53px;
+}
+section.services .outside-div a {
+  position: relative;
+  bottom: 52px;
+  height: 255px;
+}
+section.services .outside-div .service-name {
+  display: inline-block;
+  position: relative;
+  padding: 15px 15px;
+  text-align: center;
+  white-space: nowrap;
+  float: right;
+  width: auto !important;
+  background: #ff6501;
+  color: white;
+  z-index: 10000;
+  bottom: 157px;
+  cursor: pointer;
+  text-decoration: none;
+  height: auto !important;
+  font-size: 90%;
+}
+section.services a {
+  display: inline-block;
+  width: 100%;
 }
 section.services .container-fluid .row {
   padding: 18px 45px 18px 45px;
@@ -781,7 +840,7 @@ section.services .service-item {
   margin-bottom: 50px;
   height: 200px;
 }
-section.services .service-item a {
+section.services .service-item span {
   color: white;
   background-color: #ff6501;
   padding: 10px 15px;
@@ -789,6 +848,27 @@ section.services .service-item a {
   top: 105px;
   float: right;
   text-decoration: none;
+  -webkit-transition: transform 600ms;
+  -moz-transition: transform 600ms;
+  -o-transition: transform 600ms;
+  transition: transform 600ms;
+}
+section.services .service-item a:hover {
+  background-color: #323234;
+}
+section.services .outside-div .service-item:hover {
+  -webkit-transition: transform 600ms;
+  -moz-transition: transform 600ms;
+  -o-transition: transform 600ms;
+  transition: transform 600ms;
+  -webkit-transform: scale(1.3, 1.3);
+}
+section.services .outside-div .service-item {
+  -webkit-transition: transform 600ms;
+  -moz-transition: transform 600ms;
+  -o-transition: transform 600ms;
+  transition: transform 600ms;
+  -webkit-transform: scale(1, 1);
 }
 section.services .service-item a:hover {
   background-color: #323234;
@@ -829,6 +909,76 @@ section.services .service-button button {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
+}
+/*****************************
+		 service-open
+*****************************/
+section.service-open .container-fluid .row {
+  padding: 18px 45px 0 45px;
+  background-color: #323234;
+  color: white;
+  margin-bottom: 50px;
+}
+section.service-open .container img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+section.service-open .container .find-tickets {
+  width: 85%;
+}
+section.service-open .container article {
+  margin-bottom: 70px;
+  padding: 0 20px;
+}
+section.service-open .container article p {
+  line-height: 25px;
+}
+section.service-open .container hr {
+  margin-bottom: 40px;
+}
+section.service-open .container .to-news {
+  padding: 10px 75px;
+  position: relative;
+  bottom: 29px;
+  background-color: #ff6501;
+  color: white;
+  text-decoration: none;
+}
+section.service-open .container .to-news i {
+  margin-right: 8px;
+}
+section.service-open .container .to-news .triangle {
+  content: '';
+  position: absolute;
+  left: 219px;
+  bottom: 0px;
+  border: 18px solid transparent;
+  border-left: 19px solid #ff6501;
+}
+section.service-open .container .popular-list {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  /*a{
+            color:@light-gray;
+            text-decoration:none;
+        }*/
+}
+section.service-open .container .popular-list h3 {
+  font-size: 23px;
+}
+section.service-open .container .popular-list hr {
+  margin-bottom: 25px !important;
+}
+section.service-open .container .popular-list li {
+  margin-bottom: 10px;
+}
+section.service-open .container .popular-list li a {
+  color: #323234;
+  text-decoration: none;
+}
+section.service-open .container .popular-list i {
+  color: #FBD232;
+  margin-right: 10px;
 }
 /*****************************
 		     contacts
@@ -1282,6 +1432,9 @@ section.index .sponsors li:hover {
   }
 }
 @media screen and (max-width: 992px) {
+  section.service-open .right-block {
+    display: none;
+  }
   .our-services-top {
     padding: 55px 0px 0 0 !important;
   }
