@@ -16,7 +16,7 @@
             <div class="col-sm-12">
                <div class="top-img">
                    <h1>О компании</h1>
-                   <span>На рынке с 2008 года, 8 лет опыта!</span>
+                   <span>На рынке с 2008 года (8 лет опыта)</span>
                </div>
 
             </div>
