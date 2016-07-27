@@ -98,10 +98,10 @@
 	</div>
 </section>
 
-<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.validate.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/common.js"></script>
 
 <!-- Include js plugin -->
 <script src="js/owl.carousel.js"></script>

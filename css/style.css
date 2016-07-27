@@ -870,9 +870,6 @@ section.services .outside-div .service-item {
   transition: transform 600ms;
   -webkit-transform: scale(1, 1);
 }
-section.services .service-item a:hover {
-  background-color: #323234;
-}
 section.services .service-question {
   background-color: #EEEEEE;
   padding: 40px 10px 40px 40px;
