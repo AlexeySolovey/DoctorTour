@@ -362,7 +362,7 @@
                                     <div class="contact-inputs">
                                         <div class="row">
                                             <div id="loginform" class="col-md-6">
-                                                <input type="text" placeholder="Ваше имя" name="login" class="top-input" />
+                                                <input type="text" placeholder="Ваше имя" required name="login" class="top-input" />
                                             </div>
                                             <div id="loginform" class="col-md-6">
                                                 <input type="tel" placeholder="Ваш телефон" name="tel" class="top-input" />

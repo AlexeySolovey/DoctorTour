@@ -55,6 +55,7 @@ i {
 }
 .error {
   color: red;
+  width: 100%;
 }
 #scrollUp {
   bottom: 20px;
@@ -1046,7 +1047,7 @@ section.contacts .contacts-map {
   margin-bottom: 15px;
 }
 section.contacts .contact-inputs .top-input {
-  width: 49%;
+  width: 100%;
   margin: 0 2px;
   margin-bottom: 8px;
 }
