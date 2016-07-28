@@ -18,17 +18,17 @@
                         <div class="col-md-6">
                             <ul>
                                 <a href="findTour.php">
-                                    <li>Поиск туров</li>
+                                    <li>Хочу туда, не знаю куда</li>
                                 </a>
                                 <a href="hotTour.php">
-                                    <li>Горящие туры</li>
+                                    <li>Хочу не могу</li>
                                 </a>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul>
                                 <a href="medicine.php">
-                                    <li>Медицинские туры</li>
+                                    <li>Хочу быть здоровым </li>
                                 </a>
                             </ul>
                         </div>

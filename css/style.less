@@ -139,27 +139,21 @@ top: 8px
 	}
 	.navbar{
 		margin-bottom: 0;
-		.navbar-header{
-			button.navbar-toggle{
-				background-color: #fff;
-				margin-top: 33px;
-			}
-			.icon-bar{
-				background-color: @gray;
-			}
-		}
-		#responsive-menu{
+           #responsive-menu{
 			ul{
                 margin-top: -11px;
 				text-align: center;
 				li{
+                     font-size: 12px !important;
                      &:hover{
                             background-color:@orange;
                             a{
                                 color: white !important;
+                               
                             }
                         }
 					a{
+                       
 						color: rgba(255,255,255,0.6);
 						&:hover{
 							color: #333;
@@ -168,6 +162,17 @@ top: 8px
 				}
 			}
 		}
+		.navbar-header{
+         
+			button.navbar-toggle{
+				background-color: #fff;
+				margin-top: 33px;
+			}
+			.icon-bar{
+				background-color: @gray;
+			}
+		}
+		
 	}
 	.phones, .adress{
 		display: block;
@@ -1333,6 +1338,13 @@ section.index{
             .carousel-caption{
                     padding-bottom: 110px!important;
             }
+            a{
+                background-color:@orange;
+                color:white;
+                font-size: 18px;
+                padding: 6px 30px;
+                margin-top:45px;
+            }
             button{
                 background-color:@orange;
                 color:white;
@@ -1571,6 +1583,21 @@ section.index{
 }
 
 @media screen and (max-width: 992px){
+    .header_navigation{
+		.navbar{
+			#responsive-menu{
+				ul{
+					li{
+						padding: 20px 5px;
+						a{
+                            font-size: 12px !important;
+                            padding: 14px 6px;
+                          }
+                        }
+                    }
+                }
+            }
+        }
 section.service-open{
     .right-block{
         display:none;

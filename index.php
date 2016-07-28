@@ -44,9 +44,9 @@
                         <div class="item item-2">
                           
                             <div class="carousel-caption">
-                                <h1><b>Медицинские туры</b></h1>
+                                <h1><b>Хочу быть здоровым </b></h1>
                                 <h1>Это мерный плеск волн за иллюминатором, солепительное солнце, новые города и страны, не выходя из каюты Текст Текст Текст</h1>
-                                <button class="btn">Подробнее >></button>
+                                <a href="medicine.php" class="btn">Подробнее >></a>
                             </div>
                         </div>
                         ...
@@ -362,7 +362,7 @@
                                     <div class="contact-inputs">
                                         <div class="row">
                                             <div id="loginform" class="col-md-6">
-                                                <input type="text" placeholder="Ваше имя" required name="login" class="top-input" />
+                                                <input type="text" placeholder="Ваше имя" name="login" class="top-input" />
                                             </div>
                                             <div id="loginform" class="col-md-6">
                                                 <input type="tel" placeholder="Ваш телефон" name="tel" class="top-input" />

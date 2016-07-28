@@ -133,16 +133,12 @@ header .social {
 header .navbar {
   margin-bottom: 0;
 }
-header .navbar .navbar-header button.navbar-toggle {
-  background-color: #fff;
-  margin-top: 33px;
-}
-header .navbar .navbar-header .icon-bar {
-  background-color: #3f3f3f;
-}
 header .navbar #responsive-menu ul {
   margin-top: -11px;
   text-align: center;
+}
+header .navbar #responsive-menu ul li {
+  font-size: 12px !important;
 }
 header .navbar #responsive-menu ul li:hover {
   background-color: #ff6501;
@@ -155,6 +151,13 @@ header .navbar #responsive-menu ul li a {
 }
 header .navbar #responsive-menu ul li a:hover {
   color: #333;
+}
+header .navbar .navbar-header button.navbar-toggle {
+  background-color: #fff;
+  margin-top: 33px;
+}
+header .navbar .navbar-header .icon-bar {
+  background-color: #3f3f3f;
 }
 header .phones,
 header .adress {
@@ -1236,6 +1239,13 @@ section.index .carousel .item {
 section.index .carousel .item .carousel-caption {
   padding-bottom: 110px!important;
 }
+section.index .carousel .item a {
+  background-color: #ff6501;
+  color: white;
+  font-size: 18px;
+  padding: 6px 30px;
+  margin-top: 45px;
+}
 section.index .carousel .item button {
   background-color: #ff6501;
   color: white;
@@ -1444,6 +1454,13 @@ section.index .sponsors li:hover {
   }
 }
 @media screen and (max-width: 992px) {
+  .header_navigation .navbar #responsive-menu ul li {
+    padding: 20px 5px;
+  }
+  .header_navigation .navbar #responsive-menu ul li a {
+    font-size: 12px !important;
+    padding: 14px 6px;
+  }
   section.service-open .right-block {
     display: none;
   }

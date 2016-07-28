@@ -90,7 +90,7 @@
                     <div class="outside-div">
                         <a href="oneService.php" class="service-item item-5">
                         </a>
-                        <a class="service-name" href="oneService.php">TravelSim</a>
+                        <a class="service-name" href="oneService.php">Медицинский туризм</a>
                     </div>
                 </div>
                 <div class="col-md-4">

@@ -40,10 +40,10 @@
 							</div>
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
-									<li><a href="findTour.php">Поиск туров</a></li>
-									<li><a href="hotTour.php">Горящие туры</a></li>
-									<li><a href="medicine.php">Медицинские туры</a></li>
-									<li><a href="services.php">Услуги</a></li>
+									<li><a href="findTour.php">Хочу туда, не знаю куда</a></li>
+									<li><a href="hotTour.php">Хочу не могу</a></li>
+									<li><a href="medicine.php">Хочу быть здоровым </a></li>
+									<li><a href="services.php">Чем удивите</a></li>
                                     <li><a href="about.php">О компании</a></li>
 								</ul>
 							</div>
@@ -120,10 +120,10 @@
 							</div>
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
-									<li><a href="findTour.php">Поиск туров</a></li>
-									<li><a href="hotTour.php">Горящие туры</a></li>
-									<li><a href="medicine.php">Медицинские туры</a></li>
-									<li><a href="services.php">Услуги</a></li>
+									<li><a href="findTour.php">Хочу туда, не знаю куда</a></li>
+									<li><a href="hotTour.php">Хочу не могу</a></li>
+									<li><a href="medicine.php">Хочу быть здоровым</a></li>
+									<li><a href="services.php">Чем удивите </a></li>
                                     <li><a href="about.php">О компании</a></li>
 								</ul>
 							</div>
