@@ -20,14 +20,14 @@
                                 <a href="findTour.php">
                                     <li>Поиск туров</li>
                                 </a>
-                                <a href="#">
+                                <a href="hotTour.php">
                                     <li>Горящие туры</li>
                                 </a>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul>
-                                <a href="#">
+                                <a href="medicine.php">
                                     <li>Медицинские туры</li>
                                 </a>
                             </ul>
