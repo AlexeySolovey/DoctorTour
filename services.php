@@ -45,9 +45,9 @@
                         <i class="fa fa-calendar"></i>
                     </div>
                     <div class="outside-div">
-                        <a href="oneService.php" class="service-item item-1">
+                        <a href="findTour.php" class="service-item item-1">
                         </a>
-                        <a class="service-name" href="oneService.php">Продажа туров</a>
+                        <a class="service-name" href="findTour.php">Продажа туров</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -55,9 +55,9 @@
                         <i class="fa fa-plane"></i>
                     </div>
                     <div class="outside-div">
-                        <a href="oneService.php" class="service-item item-2">
+                        <a href="oneService_1.php" class="service-item item-2">
                         </a>
-                        <a class="service-name" href="oneService.php">Авиабилеты</a>
+                        <a class="service-name" href="oneService_1.php">Авиабилеты</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -65,9 +65,9 @@
                         <i class="fa fa-flag-o"></i>
                     </div>
                     <div class="outside-div">
-                        <a href="oneService.php" class="service-item item-3">
+                        <a href="oneService_2.php" class="service-item item-3">
                         </a>
-                        <a class="service-name" href="oneService.php">Страхование</a>
+                        <a class="service-name" href="oneService_2.php">Страхование</a>
                     </div>
                 </div>
             </div>
@@ -78,9 +78,9 @@
                         <i class="fa fa-suitcase"></i>
                     </div>
                     <div class="outside-div">
-                        <a href="oneService.php" class="service-item item-4">
+                        <a href="oneService_3.php" class="service-item item-4">
                         </a>
-                        <a class="service-name" href="oneService.php">Визовая поддержка</a>
+                        <a class="service-name" href="oneService_3.php">Визовая поддержка</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -88,9 +88,9 @@
                         <i class="fa fa-mobile"></i>
                     </div>
                     <div class="outside-div">
-                        <a href="oneService.php" class="service-item item-5">
+                        <a href="oneService_4.php" class="service-item item-5">
                         </a>
-                        <a class="service-name" href="oneService.php">Медицинский туризм</a>
+                        <a class="service-name" href="oneService_4.php">Медицинский туризм</a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -98,9 +98,9 @@
                         <i class="fa fa-plane"></i>
                     </div>
                     <div class="outside-div">
-                        <a href="oneService.php" class="service-item item-6">
+                        <a href="oneService_5.php" class="service-item item-6">
                         </a>
-                        <a class="service-name" href="oneService.php">Образование за рубежом</a>
+                        <a class="service-name" href="oneService_5.php">Образование за рубежом</a>
                     </div>
                 </div>
             </div>

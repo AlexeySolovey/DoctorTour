@@ -32,12 +32,13 @@
 							<h3>Не нашли нужный тур?</h3>
 							<p>Отправте запрос и мы подберем тур, учитывая все ваши пожелания</p>
 						</div>
+
 						<button data-toggle="modal" data-target="#myModal">Отправить запрос</button>
 					</div>
 				</div>
-				<div class="hidden-xs hidden-sm col-md-3">
+				<!--<div class="hidden-xs hidden-sm col-md-3">
 					<img src="images/module_min_price.png" alt="min_price" class="img-responsive">
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</section>
@@ -47,7 +48,7 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">
                         <span aria-hidden="true">&times;</span>
-                        <span class="sr-only">Закрити</span>
+                        <span class="sr-only">Закрыть</span>
                     </button>
                     <h4 class="modal-title" id="myModalLabel">Напишите свои данные и наш менеджер с вами свяжется.</h4>
                 </div>
@@ -58,23 +59,44 @@
                         <input placeholder="Ваш номер*" type="tel" />
                         <br />
                         <select>
-                            <option>
+                            <option value="">
                                 Выберите страну
                             </option>
-                            <option>
+                            <option value="Египет">
                                 Египет
                             </option>
-                            <option>
+                            <option value="Турция">
                                 Турция
                             </option>
-                            <option>
+                            <option value="Италия">
                                 Италия
                             </option>
-                            <option>
+                            <option value="Бразилия">
                                 Бразилия
                             </option>
-                            <option>
+                            <option value="Пакистан">
                                 Пакистан
+                            </option>
+                            <option value="Греция">
+                                Греция
+                            </option>
+                            <option value="Индия">
+                                Индия
+                            </option>
+                            <option value="Испания">
+                                Испания
+                            </option>
+                            <option value="Мальдивы">
+                                Мальдивы
+                            </option>
+                            <option value="Таиланд">
+                                Таиланд
+                            </option>
+                            <option value="Черногория">
+                                Черногория
+                            </option>
+                            <option value="Шри-Ланка">
+                                Шри-Ланка
                             </option>
                         </select>
                     </div>

@@ -39,8 +39,8 @@
                             <h1>Наше агенство</h1>
                             <span>
                                 Мы предлагаем Вам современные подходы, которые способны открыть
-                                Вам разнообразный, уникальный и неповторимый дух, культуру, а главное возможность насладиться ярким отдыхом в разных странах. Все услуги в «Агентство», отличаются высоким качеством в сочетании с низкими ценами.
-                                Турагенство «Агентство» отличается лучшим сервисом в городе Харькове!
+                                Вам разнообразный, уникальный и неповторимый дух, культуру, а главное возможность насладиться ярким отдыхом в разных странах. Все услуги в «Доктор тур», отличаются высоким качеством в сочетании с низкими ценами.
+                                Турагенство «Доктор тур» отличается лучшим сервисом в городе Харькове!
                                 Наши менеджеры грамотно подберут и организуют Ваш отдых в любой стране мира. У нас имеется широкая партнерская поддержка и прямые контракты с лидерами. Лучшие туристические операторы со всего мира доверяют нам свой продукт, что позволяет нам удовлетворить вкус самого привередливого и заядлого путешественника.
                             </span>
                         </div>
@@ -95,7 +95,7 @@
                                 <h6><b>Должность</b></h6>
                                 <span>Цитата — необязательное краткое содержание вашего текста, которое можно использовать в вашем шаблоне.</span>
                                 <br />
-                                <ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>
+                                <!--<ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>-->
                             </div>
 
                         </li>
@@ -110,7 +110,7 @@
                                 <h6><b>Должность</b></h6>
                                 <span>Цитата — необязательное краткое содержание вашего текста, которое можно использовать в вашем шаблоне.</span>
                                 <br />
-                                <ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>
+                                <!--<ul class="social"><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Linkedin" href="https://www.vk.com/" target="_blank"><i class="fa fa-vk"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Facebook" href="http://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li><li><a class="eg-renovation-member-element-23 eg-post-1414" title="Twitter" href="http://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li></ul>-->
                             </div>
 
                         </li>

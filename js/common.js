@@ -16,10 +16,21 @@
 	        // itemsMobile : false
 
 	    });
+        // Select
+	    var params = {
+	        changedEl: "select",
+	        visRows: 5,
+            scrollArrows: true
+	    }
+	    cuSel(params);
+
+
 
 	    $(function () {
 	        $.scrollUp();
 	    });
+
+
 
 	    $("#loginform").validate({
 

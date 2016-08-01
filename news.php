@@ -95,33 +95,33 @@
                         <hr />
                         <ul>
                             <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_1.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                                    5 городов в Европе, о которых не знают туристы
+                                    В Финляндии проходит оперный фестиваль 
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_4.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     Эмираты становятся доступнее
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_2.php">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                    Шанхай увеличил безвизовый транзит
+                                </a>
+                            </li>
+                            <li>
+                                <a href="newsOpen_5.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     На Кипр заметно увеличат перевозку
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_3.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                                    Тайные комнаты обнаружены в гробнице Тутанхамона
-                                </a>
-                            </li>
-                            <li>
-                                <a href="newsOpen.php">
-                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                                    Hilton открывает сеть эконом отелей
+                                    Hilton открывает сеть эконом отелей 
                                 </a>
                             </li>
                         </ul>

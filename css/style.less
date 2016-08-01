@@ -71,11 +71,11 @@ i{
 /*****************************
 			fonts add
 *****************************/
-p span{
-    font-family: 'Roboto';
+p, span{
+    font-family: 'Roboto' !important;
 }
-h1 h2 h3 h4 h5 h6 b{
-    font-family: 'Merriweather-Bold';
+h1, h2, h3, h4, h5, h6, b{
+    font-family: 'Merriweather-Bold' !important;
 }
 
 
@@ -107,6 +107,7 @@ header{
 						}
 					}
 				}
+               
 			}
 		}
 		.greeting{
@@ -144,12 +145,35 @@ top: 8px
                 margin-top: -11px;
 				text-align: center;
 				li{
+                    a{
+                        width:185px;
+                            text-align: center;
+                        height: 55px;
+                        vertical-align: middle;
+                        padding: 15px 10px 10px;
+                    }
+                 a:hover .a {
+                    display: none;
+                    transition-property:all;
+                    transition-duration:600ms;
+                }
+               
+                a .b {
+                    display: none;
+                     transition-property:all;
+                    transition-duration:600ms;
+                }
+                a:hover .b {
+                display: inline-block;
+                  transition-property:all;
+                    transition-duration:600ms;
+                }
+               
                      font-size: 12px !important;
                      &:hover{
                             background-color:@orange;
                             a{
                                 color: white !important;
-                               
                             }
                         }
 					a{
@@ -271,7 +295,7 @@ section.topic{
 	text-align: center;
 	margin-bottom: 65px;
 	h2{
-		font-family: Merriweather;
+		font-family: 'Merriweather-Bold' !important;
 		font-weight: 900;
 		font-size: 36px;
 		padding: 10px 0px;
@@ -302,6 +326,7 @@ footer{
 		h3{
 			color: #fff;
 			font-size: 20px;
+            font-family: 'Merriweather-Bold' !important;
 		}
 		.short-line{
 			border-bottom: 2px solid @orange;
@@ -461,6 +486,7 @@ section.find_tour{
 		h3{
 			font-weight: 600;
 			color: #1d2736;
+            font-family: 'Merriweather-Bold' !important;
 		}
 		p{
 			padding:0 20px;
@@ -588,6 +614,7 @@ section.find_tour{
 					font-size: 32.5px;
 					padding-top: 37px;
 					margin-bottom: 5px;
+                    font-family: 'Merriweather-Bold' !important;
 				}
 				p{
 					text-align: left;
@@ -630,6 +657,7 @@ section.find_tour{
             h1{
                  font-size: 42px;
                  margin-bottom: 20px;
+                 font-family: 'Merriweather-Bold' !important;
             }
     }
 section.about{
@@ -645,18 +673,25 @@ section.about{
         border:2px solid @orange;
         margin-bottom:30px;
         margin-top:40px;
+        width:100%;
         h2{
                display: inline-block;
               margin-bottom: 30px !important;
+              font-family: 'Merriweather-Bold' !important;
+              font-size:24px;
         }
         p{
-            font-size: 12px;
+            font-size: 15px;
+             line-height:24px;
         }
     }
     .about-us{
-        
+        h1{
+            font-size:36px;
+        }
         span{
-            font-size:12px !important;
+            font-size:15px !important;
+            line-height:24px;
         }
     }
     .about-background{
@@ -678,6 +713,7 @@ section.about{
         }
         h4{
             color:white;
+            font-family: 'Merriweather-Bold' !important;
         }
         p{
             font-size:11px;
@@ -700,6 +736,7 @@ section.about{
     }
     .our-team{
         text-align: center;
+        margin-bottom:30px;
         .member-info{
             display:inline-block;
             width: 165px;
@@ -724,6 +761,7 @@ section.about{
                 }
             h5{
                 color:@orange;
+                font-family: 'Merriweather-Bold' !important;
                 }
             }
         }
@@ -882,6 +920,7 @@ section.services{
         }
         h3{
                 margin-bottom: 5px;
+                font-family: 'Merriweather-Bold' !important;
         }
     }
     .our-services-text{
@@ -889,27 +928,27 @@ section.services{
         padding-left: 8px;
     }
     .item-1{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2015/12/maldives-4-600x400.jpg") no-repeat center;
+        background:url("../images/tours.jpg") no-repeat center;
         background-size:cover;
     }
      .item-2{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/136.jpg") no-repeat center;
+        background:url("../images/tickets.jpg") no-repeat center;
         background-size:cover;
     }
       .item-3{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/insurance.jpg") no-repeat center;
+        background:url("../images/insurance.jpg") no-repeat center;
         background-size:cover;
     }
        .item-4{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/viza.jpg") no-repeat center;
+        background:url("../images/visa.jpg") no-repeat center;
         background-size:cover;
     }
         .item-5{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/tracel-sim-1024x682.png") no-repeat center;
+        background:url("../images/spa.jpg") no-repeat center;
         background-size:cover;
     }
          .item-6{
-        background:url("http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/obraz-za-rubejom.jpg") no-repeat center;
+        background:url("../images/education.jpg") no-repeat center;
         background-size:cover;
     }
     .service-item{
@@ -1043,8 +1082,10 @@ section.service-open{
         .popular-list{
               margin-bottom:60px;
               margin-top:60px;
+              padding: 0 15px;
               h3{
                     font-size: 23px;
+                    font-family: 'Merriweather-Bold' !important;
               }
         hr{
             margin-bottom:25px !important;
@@ -1121,6 +1162,7 @@ section.contacts{
                     h3{
                         font-size: 19px;
                         margin-bottom: 0;
+                        font-family: 'Merriweather-Bold' !important;
                     }
                 }
             }
@@ -1160,7 +1202,9 @@ section.contacts{
 /*****************************
 		     modal
 *****************************/
-
+.modal{
+    z-index:10000;
+}
 .modal-content{
     background-color: @orange;
     color:white;
@@ -1242,6 +1286,198 @@ section.news{
         }
     }
  }
+
+/*****************************
+		     
+*****************************/
+/* ------ STYLE SELECT ----------------  */
+/* Основная часть */
+.cusel {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	height: 30px;
+	font-size: 14px;
+	border: 1px solid #c6dade;
+	border-radius: 5px;
+	background: #fff;
+	vertical-align: middle;
+	cursor: pointer;
+}
+/* Стрелочка справа */
+.cuselFrameRight {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 41px;
+	background: url(/images/select_bg_arrow.png) no-repeat center;
+}
+/* Текст в селекте */
+.cuselText { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 30px;
+	padding: 0 5px 0 15px; 
+	font-size: 12px; 
+    line-height: 30px;
+    color: #437182;
+    cursor: pointer;
+	overflow: hidden;
+}
+* html .cuselText {height: 30px;}
+
+/* Оформление пунктов списка */
+.cusel span { 
+	display: block;
+	padding: 5px 15px; 
+	font-size: 14px; 
+	color: #333;
+	zoom: 1;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+/* Оформление пунктов списка при наведении*/
+.cusel span:hover,
+.cusel .cuselOptHover { background: #eee;}
+
+/* Оформление активного пункта списка  */
+.cusel .cuselActive,
+.cusel .cuselActive:hover { background: #d2edf4;}
+
+/* Оформление селекта при наведении и клике */
+.cusel:hover,
+.cusel:focus,
+.cuselFocus {background:#fff;}
+
+/* Оформление стрелки при наведении и клике */
+.cusel:hover .cuselFrameRight,
+.cusel:focus .cuselFrameRight,
+.cuselFocus .cuselFrameRight {
+	background: #fff url(../img/select_bg_arrow.png) no-repeat center;
+}
+
+/* видимость выпадающего списка */
+.cuselOpen {z-index: 999;}
+
+/* Оформление селекта и стрелки disabled */
+.classDisCusel,
+.classDisCusel .cuselFrameRight {
+	background-image: url(../img/select_bg_arrow.png) no-repeat center;
+	cursor: default;
+	color: #ccc;
+}
+/* Оформление текста в селекте когда он disabled */
+.classDisCusel .cuselText {
+	cursor: default;
+	color: #ccc;
+}
+
+/* Оформление выпадающего списка */
+.cusel .cusel-scroll-wrap {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: block;
+	min-width: 100%;
+	width: auto;
+	height: auto !important;
+	visibility: hidden;
+	margin-top:5px;
+	padding: 5px 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+	background: #fff;
+	overflow: hidden;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    -ms-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    -o-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.cusel .jScrollPaneContainer {
+	position: relative;
+	z-index: 5;
+	overflow: hidden;
+    background: #fff;
+}
+/* блок для элементов списка с отступом справа для скролла */
+.cusel-scroll-pane {
+	top: 5px;
+	right: 3px;
+	left: 0;
+	width: auto !important;
+}
+
+/* Линия по которой будет проходить скролл */
+.cusel .jScrollPaneTrack {
+	position: absolute;
+	top: 0;
+	right: 2px;
+	height: 100%;
+	width: 5px !important;
+	background: #EEE;
+}
+
+/* кнопка для скролла */
+.cusel .jScrollPaneDrag {
+	position: absolute;
+	left: 0px;
+	width: 5px !important;
+	height: 27px !important;
+	background: #6E939E;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+/* эти 2 стиля не трогаем */
+.cusel .jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0 !important;
+	overflow: hidden;
+}
+.cusel .jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0 !important;
+	overflow: hidden;
+}
+
+/* Стрелка вверху для скролла */
+.cusel .jScrollArrowUp {
+	position: absolute;
+	top: 0;
+	right: 4px;
+	width: 0 !important;
+	height: 0;
+	cursor: pointer;
+	overflow: hidden;	
+}
+
+/* Стрелка внизу для скролла */
+.cusel .jScrollArrowDown {
+	width: 0 !important;
+	height: 0;
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	right: 4px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
 
 /*****************************
 		     index
@@ -1353,6 +1589,7 @@ section.index{
                 margin-top:45px;
             }
             h1{
+                font-family: 'Merriweather-Bold' !important;
                 &:first-child{
                     color:@orange;
                 }
@@ -1380,6 +1617,7 @@ section.index{
                 border:3px solid @orange;
                 h3{
                     font-size: 18px;
+                    font-family: 'Merriweather-Bold' !important;
                 }
                 span{
                     width: 200px;
@@ -1422,6 +1660,7 @@ section.index{
             line-height: 28px;
             font-size: 17px;
             h1{
+                font-family: 'Merriweather-Bold' !important;
                 margin-top:0;
                 font-size:32px;
                 margin-bottom: 30px;
@@ -1475,6 +1714,7 @@ section.index{
         }
         h2{
             margin-bottom:5px;
+            font-family: 'Merriweather-Bold' !important;
         }
         .reviews-user{
             margin-top: 30px;
@@ -1487,6 +1727,7 @@ section.index{
                 margin-left: 15px;
                 h4{
                     margin-bottom: 3px;
+                    font-family: 'Merriweather-Bold' !important;
                 }
             }
         }
@@ -1500,6 +1741,7 @@ section.index{
              box-shadow:0 0 0 408px rgba(0, 0, 0, 0.770) inset;
              padding:60px;
              h1{
+                 font-family: 'Merriweather-Bold' !important;
                  color:white;
                  font-weight:bold;
              }
@@ -1531,7 +1773,11 @@ section.index{
 }
 
 
+
 @media screen and (max-width: 1199px){
+    header .navbar #responsive-menu ul li a {
+    width: 145px;
+    }
     section.services{
 .service-question{
     .triangle{
@@ -1583,6 +1829,9 @@ section.index{
 }
 
 @media screen and (max-width: 992px){
+    header .navbar #responsive-menu ul li a {
+    width: 122px;
+    }
     .header_navigation{
 		.navbar{
 			#responsive-menu{
@@ -1643,11 +1892,19 @@ section.contacts{
 }
 
 @media screen and (max-width: 767px){
+     header .navbar #responsive-menu ul li a {
+    width: 100% !important;
+    }
+        header .phones ul, header .adress ul {
+     margin-left:0 !important;
+}
 section.services .service-button{
         margin-top: 22px;
     margin-bottom: 30px;
     float: right;
 }
+
+
 }
 
 @media screen and (max-width: 561px){
@@ -1692,6 +1949,7 @@ section.about .our-team ul {
 		padding-top: 40px;
 		h3{
 			padding-bottom: 10px;
+            font-family: 'Merriweather-Bold' !important;
 		}
 		.short-line{
 			margin-bottom: 20px;

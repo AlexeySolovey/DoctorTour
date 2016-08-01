@@ -40,11 +40,31 @@
 							</div>
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
-									<li><a href="findTour.php">Хочу туда, не знаю куда</a></li>
-									<li><a href="hotTour.php">Хочу не могу</a></li>
-									<li><a href="medicine.php">Хочу быть здоровым </a></li>
-									<li><a href="services.php">Чем удивите</a></li>
-                                    <li><a href="about.php">О компании</a></li>
+									<li><a href="findTour.php">
+                                        <span class="a">Хочу туда, не знаю куда</span>
+                                        <span class="b menu-item-1">Поиск туров</span>
+                                        </a>
+                                    </li>
+									<li><a href="hotTour.php">
+                                            <span class="a">Хочу не могу</span>
+                                            <span class="b menu-item-2">Горящие туры</span>
+                                        </a>
+                                    </li>
+									<li><a href="medicine.php">
+                                            <span class="a">Хочу быть здоровым</span>
+                                            <span class="b menu-item-3">Медицинские туры</span>
+                                        </a>
+                                    </li>
+									<li><a href="services.php">
+                                            <span class="a">Чем удивите</span>
+                                            <span class="b menu-item">Чем удивите</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="about.php">
+                                            <span class="a">О компании</span>
+                                            <span class="b menu-item">О компании</span>
+                                        </a>
+                                    </li>
 								</ul>
 							</div>
 						</div>
@@ -120,12 +140,37 @@
 							</div>
 							<div class="collapse navbar-collapse" id="responsive-menu">
 								<ul class="nav navbar-nav">
-									<li><a href="findTour.php">Хочу туда, не знаю куда</a></li>
-									<li><a href="hotTour.php">Хочу не могу</a></li>
-									<li><a href="medicine.php">Хочу быть здоровым</a></li>
-									<li><a href="services.php">Чем удивите </a></li>
-                                    <li><a href="about.php">О компании</a></li>
-								</ul>
+                                    <li>
+                                        <a href="findTour.php">
+                                            <span class="a">Хочу туда, не знаю куда</span>
+                                            <span class="b">Поиск туров</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="hotTour.php">
+                                            <span class="a">Хочу не могу</span>
+                                            <span class="b">Горящие туры</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="medicine.php">
+                                            <span class="a">Хочу быть здоровым</span>
+                                            <span class="b">Медицинские туры</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="services.php">
+                                            <span class="a">Чем удивите</span>
+                                            <span class="b">Чем удивите</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="about.php">
+                                            <span class="a">О компании</span>
+                                            <span class="b">О компании</span>
+                                        </a>
+                                    </li>
+                                    </ul>
 							</div>
 						</div>
 					</div>

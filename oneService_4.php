@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="container">
                     <div class="row">
-                        <h2>Авиабилеты</h2>
+                        <h2>Медицинский туризм</h2>
                     </div>
                 </div>
             </div>
@@ -29,13 +29,13 @@
                 <div class="col-md-9">
                     <div class="row">
                         <div class="service-div">
-                            <img src="http://dev27.wp.ittour.com/site15/wp-content/uploads/2016/05/136.jpg" />
-                            <a href="news.php" class="to-news">
+                            <img src="images/spa.jpg" />
+                            <a href="services.php" class="to-news">
                                 <i class="fa fa-folder-open-o" aria-hidden="true"></i>Услуги
                                 <div class="triangle"></div>
                             </a>
                             <br />
-                            <img class="find-tickets" src="images/findTickets.png" />
+                            <!--<img class="find-tickets" src="images/findTickets.png" />-->
                             <br />
                             <article>
                                 <p>
@@ -73,37 +73,37 @@
                     </div>
                 </div>
                 <div class="col-md-3 right-block">
-                    <img src="images/module_min_price.png" alt="min_price" class="img-responsive" />
+                    <!--<img src="images/module_min_price.png" alt="min_price" class="img-responsive" />-->
                     <div class="popular-list">
                         <h3><b>Последние новости</b></h3>
                         <hr />
                         <ul>
                             <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_1.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                                    5 городов в Европе, о которых не знают туристы
+                                    В Финляндии проходит оперный фестиваль
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_4.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     Эмираты становятся доступнее
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_2.php">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                                    Шанхай увеличил безвизовый транзит
+                                </a>
+                            </li>
+                            <li>
+                                <a href="newsOpen_5.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     На Кипр заметно увеличат перевозку
                                 </a>
                             </li>
                             <li>
-                                <a href="newsOpen.php">
-                                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-                                    Тайные комнаты обнаружены в гробнице Тутанхамона
-                                </a>
-                            </li>
-                            <li>
-                                <a href="newsOpen.php">
+                                <a href="newsOpen_3.php">
                                     <i class="fa fa-newspaper-o" aria-hidden="true"></i>
                                     Hilton открывает сеть эконом отелей
                                 </a>

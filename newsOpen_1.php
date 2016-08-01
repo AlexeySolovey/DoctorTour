@@ -58,55 +58,55 @@
                     <hr />
                 </div>
                 <div class="col-md-3 right-block">
-                    <img src="images/module_min_price.png" alt="min_price" class="img-responsive" />
+                    <!--<img src="images/module_min_price.png" alt="min_price" class="img-responsive" />-->
                     <div class="popular-list">
                         <h3>Популярные направления</h3>
                         <hr />
                         <ul>
                             <li>
-                                <a href="#">
+                                <div>
                                     <i class="fa fa-globe" aria-hidden="true"></i>Греция
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div>
                                     <i class="fa fa-globe" aria-hidden="true"></i>Египет
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Индия
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Испания
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Мальдивы
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Турция
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Таиланд
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Черногория
-                                </a>
+                                </div>
                             </li>
                             <li>
-                                <a href="#">
+                                <div href="#">
                                     <i class="fa fa-globe" aria-hidden="true"></i>Шри-Ланка
-                                </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
