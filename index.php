@@ -28,7 +28,7 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
                     </ol>
 
                     <!-- Обгортка для слайдів -->
@@ -49,17 +49,18 @@
                                 <a href="medicine.php" class="btn">Подробнее >></a>
                             </div>
                         </div>
-                        ...
                     </div>
 
                     <!-- Управління -->
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Попередній</span>
+
+                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+
+                        <span class="sr-only">Предыдущий</span>
                     </a>
                     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Наступний</span>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <span class="sr-only">Следующий</span>
                     </a>
                 </div>
             </div>
@@ -352,34 +353,35 @@
 
         <div class="container-fluid">
             <div class="row send-fluid">
+                <div class="send-message-block">
+                    <form id="loginform" action="" method="post">
+                        <h1>Нет времени на поиски тура?</h1>
+                        <p>Отправьте запрос, используя контактную форму и наши менеджеры подберут для Вас подходящее решение</p>
+                        <div class="contact-inputs">
+                            <div class="row">
+                                <div id="loginform" class="col-md-6">
+                                    <input type="text" placeholder="Ваше имя" name="login" class="top-input" />
+                                </div>
+                                <div id="loginform" class="col-md-6">
+                                    <input type="tel" placeholder="Ваш телефон" name="tel" class="top-input" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div id="loginform" class="col-md-12">
+                                    <input type="email" name="email" placeholder="Ваш email" />
+                                    <textarea type="text" placeholder="Ваше сообщение"></textarea>
+                                    <button type="button" name="enter" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-offset-4 col-md-8">
-                            <div class="send-message-block">
-                                <form id="loginform" action="" method="post">
-                                    <h1>Нет времени на поиски тура?</h1>
-                                    <p>Отправьте запрос, используя контактную форму и наши менеджеры подберут для Вас подходящее решение</p>
-                                    <div class="contact-inputs">
-                                        <div class="row">
-                                            <div id="loginform" class="col-md-6">
-                                                <input type="text" placeholder="Ваше имя" name="login" class="top-input" />
-                                            </div>
-                                            <div id="loginform" class="col-md-6">
-                                                <input type="tel" placeholder="Ваш телефон" name="tel" class="top-input" />
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div id="loginform" class="col-md-12">
-                                                <input type="email" name="email" placeholder="Ваш email" />
-                                                <textarea type="text" placeholder="Ваше сообщение"></textarea>
-                                                <button type="button" name="enter" class="btn">ОТПРАВИТЬ СООБЩЕНИЕ</button>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </form>
-                            </div>
+                        <div class="col-md-offset-6 col-md-6">
+                           
                         </div>
                     </div>
                 </div>

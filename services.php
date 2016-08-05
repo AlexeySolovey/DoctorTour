@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-icon">
-                        <i class="fa fa-mobile"></i>
+                        <i class="fa fa-plus-square"></i>
                     </div>
                     <div class="outside-div">
                         <a href="oneService_4.php" class="service-item item-5">
@@ -95,12 +95,36 @@
                 </div>
                 <div class="col-md-4">
                     <div class="service-icon">
-                        <i class="fa fa-plane"></i>
+                        <i class="fa fa-book"></i>
                     </div>
                     <div class="outside-div">
                         <a href="oneService_5.php" class="service-item item-6">
                         </a>
                         <a class="service-name" href="oneService_5.php">Образование за рубежом</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-icon">
+                        <img src="images/boat.svg" />
+                        <i class="fa fa-ship"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService_6.php" class="service-item item-7">
+                        </a>
+                        <a class="service-name" href="oneService_6.php">Круизы</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-icon">
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <div class="outside-div">
+                        <a href="oneService_7.php" class="service-item item-8">
+                        </a>
+                        <a class="service-name" href="oneService_7.php">Недвижимость за рубежом</a>
                     </div>
                 </div>
             </div>
@@ -146,23 +170,59 @@
                         <input placeholder="Ваш номер*" type="tel" />
                         <br />
                         <select>
-                            <option>
+                            <option value="">
                                 Выберите страну
                             </option>
-                            <option>
+                            <option value="Египет">
                                 Египет
                             </option>
-                            <option>
+                            <option value="Турция">
                                 Турция
                             </option>
-                            <option>
+                            <option value="Италия">
                                 Италия
                             </option>
-                            <option>
+                            <option value="Бразилия">
                                 Бразилия
                             </option>
-                            <option>
+                            <option value="Пакистан">
                                 Пакистан
+                            </option>
+                            <option value="Греция">
+                                Греция
+                            </option>
+                            <option value="Индия">
+                                Индия
+                            </option>
+                            <option value="Испания">
+                                Испания
+                            </option>
+                            <option value="Мальдивы">
+                                Мальдивы
+                            </option>
+                            <option value="Таиланд">
+                                Таиланд
+                            </option>
+                            <option value="Черногория">
+                                Черногория
+                            </option>
+                            <option value="Шри-Ланка">
+                                Шри-Ланка
+                            </option>
+                            <option value="Марокко">
+                                Марокко
+                            </option>
+                            <option value="ЮАР">
+                                ЮАР
+                            </option>
+                            <option value="Тунис">
+                                Тунис
+                            </option>
+                            <option value="Алжир">
+                                Алжир
+                            </option>
+                            <option value="Саудовская Аравия">
+                                Саудовская Аравия
                             </option>
                         </select>
                     </div>

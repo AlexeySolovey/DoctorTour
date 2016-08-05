@@ -52,7 +52,7 @@
                 <div class="col-md-3 right-block">
                     <!--<img src="images/module_min_price.png" alt="min_price" class="img-responsive" />-->
                     <div class="popular-list">
-                        <h3>Популярные направления</h3>
+                        <h3>Сезонные направления</h3>
                         <hr />
                         <ul>
                             <li>

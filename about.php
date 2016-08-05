@@ -65,7 +65,7 @@
                         </div>
                         <div class="col-md-4 bottm-center">
                             <i class="fa fa-clock-o" aria-hidden="true"></i>
-                            <h4>Работаем 24/7</h4>
+                            <h4>Работаем с 10.00 до 18.00</h4>
                             <p>Вы можете оставить заявку на тур в любое время дня и ночи.</p>
                         </div>
                         <div class="col-md-4 bottm-right">

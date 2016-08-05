@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
 	<?php include_once("header.php"); ?>
@@ -97,6 +98,21 @@
                             </option>
                             <option value="Шри-Ланка">
                                 Шри-Ланка
+                            </option>
+                            <option value="Марокко">
+                                Марокко
+                            </option>
+                            <option value="ЮАР">
+                                ЮАР
+                            </option>
+                            <option value="Тунис">
+                                Тунис
+                            </option>
+                            <option value="Алжир">
+                                Алжир
+                            </option>
+                            <option value="Саудовская Аравия">
+                                Саудовская Аравия
                             </option>
                         </select>
                     </div>

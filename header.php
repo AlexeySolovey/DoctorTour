@@ -46,18 +46,18 @@
                                         </a>
                                     </li>
 									<li><a href="hotTour.php">
-                                            <span class="a">Хочу не могу</span>
+                                            <span class="a">Хочу хочу</span>
                                             <span class="b menu-item-2">Горящие туры</span>
                                         </a>
                                     </li>
 									<li><a href="medicine.php">
-                                            <span class="a">Хочу быть здоровым</span>
+                                            <span class="a">За здоровьем</span>
                                             <span class="b menu-item-3">Медицинские туры</span>
                                         </a>
                                     </li>
 									<li><a href="services.php">
-                                            <span class="a">Чем удивите</span>
-                                            <span class="b menu-item">Чем удивите</span>
+                                            <span class="a">Удивите меня</span>
+                                            <span class="b menu-item">Услуги</span>
                                         </a>
                                     </li>
                                     <li><a href="about.php">
@@ -82,7 +82,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-5 col-md-6">
+					<div class="col-xs-12 col-sm-3 col-md-3">
 						<div class="phones adress">
 							<!--<i class="fa fa-home"></i>-->
                             <div class="adress">
@@ -96,6 +96,11 @@
 						</div>
                        
 					</div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 back-call-div">
+                        <div class="back-call">
+                            <i class="fa fa-caret-left triangle-left" aria-hidden="true"></i><button data-toggle="modal" data-target="#myModal_2" class="btn">Заказать обратный звонок</button><i class="fa fa-caret-right triangle-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</div>
@@ -148,20 +153,20 @@
                                     </li>
                                     <li>
                                         <a href="hotTour.php">
-                                            <span class="a">Хочу не могу</span>
+                                            <span class="a">Хочу хочу</span>
                                             <span class="b">Горящие туры</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="medicine.php">
-                                            <span class="a">Хочу быть здоровым</span>
+                                            <span class="a">За здоровьем</span>
                                             <span class="b">Медицинские туры</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="services.php">
-                                            <span class="a">Чем удивите</span>
-                                            <span class="b">Чем удивите</span>
+                                            <span class="a">Удивите меня</span>
+                                            <span class="b">Услуги</span>
                                         </a>
                                     </li>
                                     <li>
@@ -178,3 +183,30 @@
 			</div>
 		</div>
 	</header>
+
+<div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Закрыть</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Напишите свои данные и наш менеджер с вами свяжется.</h4>
+            </div>
+            <div class="modal-body order-modal-body">
+                <div class="modal-left">
+                    <input placeholder="Ваше имя*" type="text" />
+                    <br />
+                    <input placeholder="Ваш номер*" type="tel" />
+                    <br />
+                </div>
+
+            </div>
+            <div class="modal-footer order-modal-footer">
+                <!--<button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>-->
+                <button type="button" class="btn">Заказать</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -37,7 +37,7 @@
 				</div>
 				<div class="hidden-xs hidden-sm col-md-3">
 					<div class="popular-list">
-                        <h3>Популярные направления</h3>
+                        <h3>Сезонные направления</h3>
                         <hr />
                         <ul>
                             <li>
@@ -145,23 +145,59 @@
                         <input placeholder="Ваш номер*" type="tel" />
                         <br />
                         <select>
-                            <option>
+                            <option value="">
                                 Выберите страну
                             </option>
-                            <option>
+                            <option value="Египет">
                                 Египет
                             </option>
-                            <option>
+                            <option value="Турция">
                                 Турция
                             </option>
-                            <option>
+                            <option value="Италия">
                                 Италия
                             </option>
-                            <option>
+                            <option value="Бразилия">
                                 Бразилия
                             </option>
-                            <option>
+                            <option value="Пакистан">
                                 Пакистан
+                            </option>
+                            <option value="Греция">
+                                Греция
+                            </option>
+                            <option value="Индия">
+                                Индия
+                            </option>
+                            <option value="Испания">
+                                Испания
+                            </option>
+                            <option value="Мальдивы">
+                                Мальдивы
+                            </option>
+                            <option value="Таиланд">
+                                Таиланд
+                            </option>
+                            <option value="Черногория">
+                                Черногория
+                            </option>
+                            <option value="Шри-Ланка">
+                                Шри-Ланка
+                            </option>
+                            <option value="Марокко">
+                                Марокко
+                            </option>
+                            <option value="ЮАР">
+                                ЮАР
+                            </option>
+                            <option value="Тунис">
+                                Тунис
+                            </option>
+                            <option value="Алжир">
+                                Алжир
+                            </option>
+                            <option value="Саудовская Аравия">
+                                Саудовская Аравия
                             </option>
                         </select>
                     </div>

@@ -18,17 +18,18 @@
                         <div class="col-md-6">
                             <ul>
                                 <a href="findTour.php">
-                                    <li>Хочу туда, не знаю куда</li>
+                                    <li>Хочу туда, не знаю 
+                                    <br />куда</li>
                                 </a>
                                 <a href="hotTour.php">
-                                    <li>Хочу не могу</li>
+                                    <li>Хочу хочу</li>
                                 </a>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul>
                                 <a href="medicine.php">
-                                    <li>Хочу быть здоровым </li>
+                                    <li>За здоровьем </li>
                                 </a>
                             </ul>
                         </div>
@@ -62,7 +63,7 @@
 							</li>
 							<li>
 								<i class="fa fa-clock-o"></i>
-								<span>Пн. - Суб.: 10:00 - 19:00</span>
+								<span>Пн. - Суб.: 10:00 - 18:00</span>
 							</li>
 						</ul>
 					</div>
@@ -101,10 +102,9 @@
 <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-<script src="js/cusel-min-2.5.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 
-
+<script src="js/jquery.selectBox.js"></script>
 <!-- Include js plugin -->
 <script src="js/owl.carousel.js"></script>
 <script src="js/jquery.scrollUp.js"></script>

@@ -7,7 +7,7 @@
 	        paginationSpeed: 400,
 	        singleItem: true,
 	        pagination: true,
-
+	        autoPlay: true
 	        // "singleItem:true" is a shortcut for:
 	        // items : 1, 
 	        // itemsDesktop : false,
@@ -17,17 +17,19 @@
 
 	    });
         // Select
-	    var params = {
-	        changedEl: "select",
-	        visRows: 5,
-            scrollArrows: true
-	    }
-	    cuSel(params);
+	    //var params = {
+	    //    changedEl: "select",
+	    //    visRows: 5,
+        //    scrollArrows: true
+	    //}
+	    //cuSel(params);
 
+	    $('select').selectBox();
 
-
-	    $(function () {
-	        $.scrollUp();
+	    // or with custom settings
+	    $('select').selectBox({
+	        mobile: true,
+	        menuSpeed: 'fast'
 	    });
 
 

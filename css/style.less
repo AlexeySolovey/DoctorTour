@@ -68,6 +68,12 @@ i{
 	height: 38px;  /* Height of image */
 	background: url(/images/top.png) no-repeat;
 }
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-control.right{
+    background-image: none;
+}
 /*****************************
 			fonts add
 *****************************/
@@ -85,12 +91,13 @@ h1, h2, h3, h4, h5, h6, b{
 header{
 	background: @orange;
 	.header_top{
-		background: @gray;
+		background: white;
 		nav{
 			ul {
 				margin-bottom: 0;
 				text-align: center;
 				a{
+                    color:black !important;
 					&:last-child li{
 							border-right: 1px solid rgba(238, 238, 238, 0.1);
 						}
@@ -98,12 +105,12 @@ header{
 						display: inline-block;
 						border-left: 1px solid rgba(238, 238, 238, 0.1);
 						padding: 12px 15px;
-						color: @light_gray;
+						color: black;
 						font-weight: 400;
 						font-family: "Roboto";
 						font-size: 14px;
 						&:hover{
-							color: #fff;
+							color: @gray;
 						}
 					}
 				}
@@ -113,7 +120,7 @@ header{
 		.greeting{
 			text-align: center;
 			padding-top: 14px;
-			color: @light_gray;
+			color: black;
 			&:hover{
 				color:#fff;
 			}
@@ -145,6 +152,7 @@ top: 8px
                 margin-top: -11px;
 				text-align: center;
 				li{
+                    display:table;
                     a{
                         width:185px;
                             text-align: center;
@@ -269,8 +277,9 @@ top: 8px
 				ul{
 					text-align: center;
 					li{
-						padding: 20px 5px;
+                        display:table;
 						a{
+                            padding: 29px 5px 51px;
 							color: #777;
 							text-transform: uppercase;
 							font-size: 13px;
@@ -286,6 +295,44 @@ top: 8px
 		}
 	}
 }
+/*****************************
+        back-call modal
+*****************************/
+.back-call{
+    margin-top: 28px;
+    margin-left: 12px;
+            .triangle-left{
+            font-size: 58px;
+        position: absolute;
+        left: 11px;
+        top: 15px;
+        color:@orange;
+        }
+       .triangle-right{
+        font-size: 58px;
+        position: absolute;
+        left: 221px;
+        top: 15px;
+        color:@orange;
+        }
+    button{
+        background-color:@orange;
+        color:white;
+    }
+    button:hover{
+        background-color:@orange !important;
+        color:@light_gray;
+    }
+}
+#myModal_2{
+    .modal-left{
+        float:none;
+        width: 50%;
+    display: table;
+    margin: 0 auto;
+    }
+}
+
 /*****************************
 			topic
 *****************************/
@@ -532,7 +579,7 @@ section.find_tour{
 				color: #fff;
 				margin-top: 20px;
 				margin-left: 30px;
-				width: 100%;
+				width: 105%;
 				i{
 					color: @orange;
 				}
@@ -653,7 +700,7 @@ section.find_tour{
         text-align:center;
         padding:120px 10px;
         color:white;
-        box-shadow: 0 0 0 328px rgba(0, 0, 0, 0.45) inset;
+        /*box-shadow: 0 0 0 328px rgba(0, 0, 0, 0.45) inset;*/
             h1{
                  font-size: 42px;
                  margin-bottom: 20px;
@@ -855,6 +902,13 @@ section.services{
             position: relative;
             bottom: 24px;
             right: 12px;
+               img{
+                display: inline-block;
+                width: 25px;
+                position: relative;
+                top: -2px;
+                left: -2px;
+            }
             i{
                 font-size: 22px;
                 color:white;
@@ -951,6 +1005,14 @@ section.services{
         background:url("../images/education.jpg") no-repeat center;
         background-size:cover;
     }
+           .item-7{
+        background:url("../images/cruises.jpg") no-repeat center;
+        background-size:cover;
+    }
+         .item-8{
+        background:url("../images/house.jpg") no-repeat center;
+        background-size:cover;
+    }
     .service-item{
         margin-bottom: 50px;
         height:200px;
@@ -1008,6 +1070,7 @@ section.services{
             top: 26px;
             margin-right: 10px;
             margin-bottom:30px;
+         
         }
       .question-text{
             display: inline-block;
@@ -1288,201 +1351,198 @@ section.news{
  }
 
 /*****************************
-		     
+		     SELECT
 *****************************/
-/* ------ STYLE SELECT ----------------  */
-/* Основная часть */
-.cusel {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	height: 30px;
-	font-size: 14px;
-	border: 1px solid #c6dade;
-	border-radius: 5px;
-	background: #fff;
-	vertical-align: middle;
-	cursor: pointer;
-}
-/* Стрелочка справа */
-.cuselFrameRight {
-	position: absolute;
-	z-index: 2;
-	top: 0;
-	right: 0;
-	height: 100%;
-	width: 41px;
-	background: url(/images/select_bg_arrow.png) no-repeat center;
-}
-/* Текст в селекте */
-.cuselText { 
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 1;
-	height: 30px;
-	padding: 0 5px 0 15px; 
-	font-size: 12px; 
-    line-height: 30px;
-    color: #437182;
-    cursor: pointer;
-	overflow: hidden;
-}
-* html .cuselText {height: 30px;}
-
-/* Оформление пунктов списка */
-.cusel span { 
-	display: block;
-	padding: 5px 15px; 
-	font-size: 14px; 
-	color: #333;
-	zoom: 1;
-	cursor: pointer;
-	white-space: nowrap;
-}
-
-/* Оформление пунктов списка при наведении*/
-.cusel span:hover,
-.cusel .cuselOptHover { background: #eee;}
-
-/* Оформление активного пункта списка  */
-.cusel .cuselActive,
-.cusel .cuselActive:hover { background: #d2edf4;}
-
-/* Оформление селекта при наведении и клике */
-.cusel:hover,
-.cusel:focus,
-.cuselFocus {background:#fff;}
-
-/* Оформление стрелки при наведении и клике */
-.cusel:hover .cuselFrameRight,
-.cusel:focus .cuselFrameRight,
-.cuselFocus .cuselFrameRight {
-	background: #fff url(../img/select_bg_arrow.png) no-repeat center;
-}
-
-/* видимость выпадающего списка */
-.cuselOpen {z-index: 999;}
-
-/* Оформление селекта и стрелки disabled */
-.classDisCusel,
-.classDisCusel .cuselFrameRight {
-	background-image: url(../img/select_bg_arrow.png) no-repeat center;
-	cursor: default;
-	color: #ccc;
-}
-/* Оформление текста в селекте когда он disabled */
-.classDisCusel .cuselText {
-	cursor: default;
-	color: #ccc;
-}
-
-/* Оформление выпадающего списка */
-.cusel .cusel-scroll-wrap {
-	position: absolute;
-	left: 0;
-	top: 100%;
-	display: block;
-	min-width: 100%;
-	width: auto;
-	height: auto !important;
-	visibility: hidden;
-	margin-top:5px;
-	padding: 5px 0;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-	background: #fff;
-	overflow: hidden;
-    border-radius: 4px;
+//* Dropdown control */
+.selectBox-dropdown {
+    width: 100% !important;
+    position: relative;
+    border: solid 1px #BBB;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    outline: none;
+    vertical-align: middle;
+    background: white;
+    /*background: -moz-linear-gradient(top, #F8F8F8 1%, #E1E1E1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #F8F8F8), color-stop(100%, #E1E1E1));*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8F8F8', endColorstr='#E1E1E1', GradientType=0);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .75);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    -ms-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    -o-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-}
-.cusel .jScrollPaneContainer {
-	position: relative;
-	z-index: 5;
-	overflow: hidden;
-    background: #fff;
-}
-/* блок для элементов списка с отступом справа для скролла */
-.cusel-scroll-pane {
-	top: 5px;
-	right: 3px;
-	left: 0;
-	width: auto !important;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: default;
 }
 
-/* Линия по которой будет проходить скролл */
-.cusel .jScrollPaneTrack {
-	position: absolute;
-	top: 0;
-	right: 2px;
-	height: 100%;
-	width: 5px !important;
-	background: #EEE;
+.selectBox-dropdown:focus,
+.selectBox-dropdown:focus .selectBox-arrow {
+    border-color: #666;
 }
 
-/* кнопка для скролла */
-.cusel .jScrollPaneDrag {
-	position: absolute;
-	left: 0px;
-	width: 5px !important;
-	height: 27px !important;
-	background: #6E939E;
-	cursor: pointer;
-	overflow: hidden;
-	border-radius: 3px;
+.selectBox-dropdown.selectBox-menuShowing-bottom {
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
-/* эти 2 стиля не трогаем */
-.cusel .jScrollPaneDragTop {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0 !important;
-	overflow: hidden;
-}
-.cusel .jScrollPaneDragBottom {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0 !important;
-	overflow: hidden;
+.selectBox-dropdown.selectBox-menuShowing-top {
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
-/* Стрелка вверху для скролла */
-.cusel .jScrollArrowUp {
-	position: absolute;
-	top: 0;
-	right: 4px;
-	width: 0 !important;
-	height: 0;
-	cursor: pointer;
-	overflow: hidden;	
+.selectBox-dropdown .selectBox-label {
+    padding: 2px 8px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100% !important;
+    color:black;
+    padding-top: 6px;
 }
 
-/* Стрелка внизу для скролла */
-.cusel .jScrollArrowDown {
-	width: 0 !important;
-	height: 0;
-	position: absolute;
-	top: auto;
-	bottom: 0;
-	right: 4px;
-	cursor: pointer;
-	overflow: hidden;
+.selectBox-dropdown .selectBox-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23px;
+    height: 100%;
+    background: url(../images/jquery.selectBox-arrow.gif) 50% center no-repeat;
+    border-left: solid 1px #BBB;
 }
 
+/* Dropdown menu */
+.selectBox-dropdown-menu {
+    position: absolute;
+    z-index: 99999;
+    max-height: 200px;
+    min-height: 1em;
+    border: solid 1px #BBB; /* should be the same border width as .selectBox-dropdown */
+    background: #FFF;
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Inline control */
+.selectBox-inline {
+    min-width: 150px;
+    outline: none;
+    border: solid 1px #BBB;
+    background: #FFF;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.selectBox-inline:focus {
+    border-color: #666;
+}
+
+/* Options */
+.selectBox-options,
+.selectBox-options LI,
+.selectBox-options LI A {
+    list-style: none;
+    display: block;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+}
+
+.selectBox-options.selectBox-options-top{
+    border-bottom:none;
+	margin-top:1px;
+	-moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.selectBox-options.selectBox-options-bottom{
+	border-top:none;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.selectBox-options LI A {
+    line-height: 1.5;
+    padding: 0 .5em;
+    white-space: nowrap;
+    overflow: hidden;
+    background: 6px center no-repeat;
+    text-decoration:none;
+    color:black;
+}
+
+.selectBox-options LI.selectBox-hover A {
+    background-color: #EEE;
+}
+
+.selectBox-options LI.selectBox-disabled A {
+    color: #888;
+    background-color: transparent;
+}
+
+.selectBox-options LI.selectBox-selected A {
+    background-color: #C8DEF4;
+}
+
+.selectBox-options .selectBox-optgroup {
+    color: #666;
+    background: #EEE;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 0 .3em;
+    white-space: nowrap;
+}
+
+/* Disabled state */
+.selectBox.selectBox-disabled {
+    color: #888 !important;
+}
+
+.selectBox-dropdown.selectBox-disabled .selectBox-arrow {
+    opacity: .5;
+    filter: alpha(opacity=50);
+    border-color: #666;
+}
+
+.selectBox-inline.selectBox-disabled {
+    color: #888 !important;
+}
+
+.selectBox-inline.selectBox-disabled .selectBox-options A {
+    background-color: transparent !important;
+}
+.selectBox-active{
+    background-color:white !important;
+}
 
 /*****************************
 		     index
 *****************************/
 section.index{
+
     .contact-inputs{
        margin-top:30px;
         .top-input{
@@ -1517,8 +1577,8 @@ section.index{
             content: '';
             position: absolute;
             left: 512px;
-             bottom: 17px;
-            border: 97px solid transparent;
+             bottom: 14px;
+            border: 115px solid transparent;
             border-left: 53px solid #EEEEEE;
         }
       .service-icon{
@@ -1569,6 +1629,16 @@ section.index{
     }
 
     .carousel{
+        .carousel-control{
+            box-shadow:none;
+            i{
+                margin-top: 235px;
+                font-size: 30px;
+            }
+        }
+        .carousel-control:hover{
+            box-shadow:none !important;
+        }
         .item{
             height:500px;
             .carousel-caption{
@@ -1598,12 +1668,12 @@ section.index{
         .item-1{
             background:url("http://holidayclub.by/images/kruiz/seacruise.jpg") no-repeat center;
             background-size:cover;
-            box-shadow:0 0 0 408px rgba(0, 0, 0, 0.453) inset;
+            /*box-shadow:0 0 0 408px rgba(0, 0, 0, 0.110) inset;*/
         }
           .item-2{
             background:url("http://www.votpusk.ru/story/edit/foto/large/46553.jpg") no-repeat center;
             background-size:cover;
-            box-shadow:0 0 0 408px rgba(0, 0, 0, 0.453) inset;
+            /*box-shadow:0 0 0 408px rgba(0, 0, 0, 0.110) inset;*/
         }
     }
     .tours-type{
@@ -1737,16 +1807,19 @@ section.index{
         background-size:cover;
         margin-top:20px;
         margin-bottom:45px;
+        padding: 185px 0 0;
         .send-message-block{
-             box-shadow:0 0 0 408px rgba(0, 0, 0, 0.770) inset;
-             padding:60px;
+             box-shadow:0 0 0 408px rgba(0, 0, 0, 0.4) inset;
+             padding: 10px 60px;
+                 width: 453px;
+            float: right;
              h1{
                  font-family: 'Merriweather-Bold' !important;
                  color:white;
                  font-weight:bold;
              }
              p{
-                 color:#818081;
+                 color:@light_gray;
              }
         }
     }
@@ -1787,6 +1860,10 @@ section.index{
 }
 }
 @media screen and (max-width: 999px){
+    .back-call-div{
+        display:none;
+
+    }
     section.services{
 .service-question{
     .triangle{
@@ -1889,12 +1966,36 @@ section.contacts{
      }
    }
 
+
 }
 
 @media screen and (max-width: 767px){
-     header .navbar #responsive-menu ul li a {
-    width: 100% !important;
+    section.index{
+        .container-fluid{
+            .send-fluid{
+                .send-message-block{
+                    width:100% !important;
+                }
+            }
+        }
     }
+     header{
+        .navbar{
+            #responsive-menu{
+                nav{
+                    li{
+                        display:table !important;
+                        margin: 0 auto;
+                        a {
+                            width: 100% !important;
+                        } 
+                    } 
+                } 
+            } 
+        } 
+     } 
+
+
         header .phones ul, header .adress ul {
      margin-left:0 !important;
 }
